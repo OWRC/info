@@ -1,42 +1,30 @@
 ---
-title: Climate Stations
+title: Hydrogeology
 output: html_document
 ---
 
-# Climate Stations
+# Hydrogeology
 
-Instrumental to the water resources management of the Oak Ridges Moraine area is the accurate characterization of the regional climate. The database maintained by the Oak Ridges Moraine program houses updated meteorological data made available from Environment Canada and partner agencies. From these data, standard analysis is performed to gather insight on the energy and water balances occurring on the land surface that have a direct impact on the region’s groundwater resources. A summary map of these climate station locations and the data they provide can be found here. 
+Hydrogeology involves the study of the movement of subsurface fluids and their interaction with the soil and rock units through which they flow.  Here we will explore how water enters the ground, moves through the subsurface, and ultimately flows back towards the ground surface.  More detailed descriptions of the various aspects of hydrogeology can be obtained from numerous text books that exist on the topic (e.g. Freeze and Cherry, 1979;  Domenico and Schwartz, 1990; Fetter, 2001).
 
-​
+While hydrogeology mainly focusses on the groundwater component of the hydrologic cycle, hydrogeological analysis often involves an understanding and quantification of other components of the hydrologic cycle (Water Budget, Climate, Streamflow).  Globally, the largest reservoir in the hydrologic cycle is the ocean which contains approximately 97% of the earth’s water.  The largest fresh water reservoirs are the polar ice sheets (74% of fresh water) with most of the remainder residing as groundwater.  The residence time varies directly with the size of the reservoir.  Residence times in the oceans and ice caps can be thousands of years whereas in the smaller reservoirs are much less, on the order of days in the atmosphere and days to weeks in streams and rivers.​​
 
-On a seasonal basis, precipitation that falls to the surface will either recharge the groundwater supply, runoff to stream channels, or evaporate back to the atmosphere. The program’s database maintains measured precipitation and streamflow, however evaporation lost to the atmosphere needs to be determined in order to estimate groundwater recharge.
+![](fig/hydro%20g%20fig%201.webp)
+**Figure 1:** Global hydrologic cycle reservoirs. Figure Skinner et al.,1999
 
-Evapotranspiration is a conceptual term that captures liquid water evaporating from a wet surface, and water that is drawn by plants and transpired during biomass production. It is consistently the dominant water budget element in the Oak Ridges Moraine region; however, it is very difficult to quantify, because in most cases it is not possible to directly measure.
+When precipitation (rain and snow) falls to the ground, the water does not stop moving.  Some of the water sinks into the ground (infiltration).  The Oak Ridges Moraine study area receives approximately 1 metre of rain and snow (as water equivalent) per year.  On average and noting that significant spatial variation will occur, approximately 60% of this evapotranspires back to the atmosphere, ~25% infiltrates into the ground, and ~15% forms runoff over the land surface.  Some of this infiltration will percolate to the water table as groundwater Recharge.  Groundwater will then flow relatively slowly through the subsurface controlled by many factors including those related to the properties of the soil and rock (Hydraulic Properties) such as porosity and permeability, and the presence of differential driving pressures that force groundwater movement (Groundwater Flow/Levels). 
 
-​
+Geologic layers or formations are often classified as Hydrostratigraphic Units.  A hydrostratigraphic unit is a geologic formation, part of a formation, or a group of formations with similar hydrologic characteristics or properties relating to groundwater flow that allow for a grouping into aquifer or aquitard units (Domenico and Schwartz, 1990).  Fluids flow more readily through aquifer units compared to aquitard units.
 
-Understanding the amount of groundwater recharge thus requires an understanding of how the atmosphere interacts with the land surface, which involves consideration of:
+Ultimately groundwater flows back to the ground surface, typically into surface water bodies such as lakes, rivers or oceans (Discharge).  During the journey that water particles take through the subsurface, the chemistry of the groundwater changes (Water Quality).  Some of these changes are natural and some of these changes are human induced, for example through the introduction of contaminants.  Groundwater quality analysis can tell us a lot about the flow of groundwater within the groundwater system. 
 
-​
+Numerical Modeling is another tool that hydrogeologists use to help in understanding the flow system.  Numerical models are sophisticated ways of incorporating various types of measurements to quantify the flow system.  By calibrating the models so that they reasonably match historical observations, hydrogeologists can then attempt to make predictions as to how the flow system may change in the future in response to various stresses such as increased groundwater pumping or climate change.
 
-    Precipitation (in the form of rain and snow);
+![](fig/hydro%20g%20fig%202.webp)
+**Figure 2:** Components of the basin hydrologic cycle. 
 
-    Air temperature
-
-    Solar irradiation
-
-    The moisture content of air and soil
-
-    Wind speeds and direction
-
-    The distribution of land use type and function   
-
-​
-
-In the Oak Ridges Moraine region, the strength of the atmosphere’s evaporative demand is seasonal, being strongest in the summer when temperatures are hot and the days are long and the vegetative cover is growing and actively utilizing moisture from the ground. Conversely, with colder temperatures and with plants dormant, the evaporative demand is minimal in the winter months. Coincidentally, during the cold months, precipitation falling as snow accumulates until the spring season when the snowpack begins to melt. With melting occurring during a period of relatively low evaporation demand, snow melt tends to be a major contributor to annual groundwater recharge rates.
-
-​
-
-The program has run recharge/runoff modelling to provide estimates of water budget components across the study area. Due to the technical sophistication of the work, the results of these modelling analyses are made available to partner agency staff and consultants undertaking technical studies in the area.
-
-​
+## Further information is available below:
+* [Hydrostratigraphic Units](md/hydrostratigraphicunits.html)
+* [Hydraulic Properties](md/hydraulicproperties.md)
+* [Groundwater Flow](md/gwflow.html)
+* [Water Budget](md/waterbudget.html)
