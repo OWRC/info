@@ -24,7 +24,7 @@ Numerical Modeling is another tool that hydrogeologists use to help in understan
 **Figure 2:** Components of the basin hydrologic cycle. 
 
 ## Further information is available below:
-* [Hydrostratigraphic Units](md/hydrostratigraphicunits.html)
-* [Hydraulic Properties](md/hydraulicproperties.md)
-* [Groundwater Flow](md/gwflow.html)
-* [Water Budget](md/waterbudget.html)
+* [Hydrostratigraphic Units](hydrostratigraphicunits.html)
+* [Hydraulic Properties](hydraulicproperties.md)
+* [Groundwater Flow](gwflow.html)
+* [Water Budget](waterbudget.html)

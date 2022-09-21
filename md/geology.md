@@ -23,6 +23,6 @@ Since 2010 several Source Water Protection studies have also seen consultants in
 
 # Further information is available below
 
-* [Drilling](md/drilling.html)
-* [Bedrock Geology](md/bedrock.html)
-* [Sedimentology](md/sedimentology.html)
+* [Drilling](drilling.html)
+* [Bedrock Geology](bedrock.html)
+* [Sedimentology](sedimentology.html)
