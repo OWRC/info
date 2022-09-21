@@ -32,6 +32,7 @@ A more comprehensive stratigraphic sequence is outlined in the figure below. Thi
 Also, two earlier deposited units, the Don Formation and the York Till, are found underlying the Lower Sediments of the GSC. Both of these units predate the onset of Wisconsinan glaciation, the period during which the bulk of the sediments occurring in the study area were deposited. The Wisconsinan glaciation started some 80,000 years ago and reached its maximum about 20,000 years ago.
 
 ![](fig/sediment%20layers.webp)
+
 Stratigraphic Model of Quaternary Deposits (from Eyles, N. 2002. Ontario rocks: Three billion years of environmental change. Fitzhenry & Whiteside Ltd.)
 
 In more recent geological interpretations two slight alterations have been made to the conceptualized geological model as outlined above.
