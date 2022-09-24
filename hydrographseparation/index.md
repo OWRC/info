@@ -205,7 +205,7 @@ Furey and Gupta (2001) presented a digital filter that was formulated this way. 
 
 
 # Source code
-The above algorithms are available using [the following jupyter script](https://github.com/OWRC/interpolants/blob/main/modelling/src/hydrographseparation.ipynb), some edits may be required to accommodate data format. In its current state, it readily reads a hydrograph .csv file with the header: `"Date,Flow,Flag"`.
+The above algorithms are available using [the following jupyter script](https://github.com/OWRC/education/blob/main/hydrographseparation/src/hydrographseparation.ipynb), some edits may be required to accommodate data format. In its current state, it readily reads a hydrograph .csv file with the header: `"Date,Flow,Flag"`.
 
 
 
