@@ -14,9 +14,9 @@ output: html_document
 For hydrograph separation, it is generally assumed that total flow ($q$) at any particular time ($t$) of a streamflow hydrograph can be partitioned into two primary components:
 
 1. The *__slow flow__* component $(b)$, which is itself composed of the gradual release of water from watershed stores in addition to groundwater discharging into streams, the "groundwater runoff" in Linsley etal.). The slow flow component has been commonly referred as "baseflow." and,
-1. The *__quick flow__* component ($f$), which originates from rainfall and/or snow melt events (i.e., "direct runoff" in Linsley et.al., 1975).
+1. The *__quick flow__* component $(f)$, which originates from rainfall and/or snow melt events (i.e., "direct runoff" in Linsley et.al., 1975).
 
-Together, the slow and quick flow components sum to total flow: $q=b+f$. Conceptually, after a period of time following a precipitation event, streamflow continues to decrease at a predictable rate as it is composed entirely of slowflow ($f=0$). Upon the onset of a heavy rain event, the hydrograph quickly rises, as quick flow is added to the slowflow signature. One could imagine that should this rain event never occur, the underlying slowflow would have continued uninterrupted (such as in Reed et.al., 1975). The difference between total flow and this "underlying" slowflow is perceived as quickflow.
+Together, the slow and quick flow components sum to total flow: $q=b+f$. Conceptually, after a period of time following a precipitation event, streamflow continues to decrease at a predictable rate as it is composed entirely of slowflow $(f=0)$. Upon the onset of a heavy rain event, the hydrograph quickly rises, as quick flow is added to the slowflow signature. One could imagine that should this rain event never occur, the underlying slowflow would have continued uninterrupted (such as in Reed et.al., 1975). The difference between total flow and this "underlying" slowflow is perceived as quickflow.
 
 ![Reed et.al., 1975](fig/Reed1_small.png)
 
@@ -30,11 +30,11 @@ For many groundwater flow models in southern Ontario, it is assumed that the lon
 
 ## Slowflow Quantification
 
-In general, two metrics can be determined from hydrograph separation that need definition. 
+A number of metrics associated hydrograph separation that help describe the relationship between quick and slow flow. 
 
 ### Baseflow Index
 
-The first is the baseflow index ($BFI$), which is the ratio of long term baseflow discharge to total discharge:
+The first is the baseflow index $(BFI)$, which is the ratio of long term baseflow discharge to total discharge:
 
 $$\text{BFI}=\frac{\sum b}{\sum q}$$
 
@@ -60,7 +60,7 @@ The above empirical relation is included here as many automatic hydrograph separ
 <!-- ![Linsley and Franzini, 1964](fig/pinder1.png) -->
 <img src="fig/pinder1.png" width="500" />
 
-> *Note for reference to the image above: "direct runoff" = quickflow, and "ground-water runoff" = slowflow.* 
+> *Note for reference to the image above: "direct runoff" = quickflow, and "ground-water runoff" = slowflow.* Linsley and Franzini (1964)
 
 # Algorithms
 
