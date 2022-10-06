@@ -1,3 +1,3 @@
-# education
+# info
 
-a series of documents explaining the nature of the ORM and the importance of data colletion
+a series of documents explaining the nature of the ORM and the importance of data collection
