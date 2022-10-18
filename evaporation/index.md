@@ -75,3 +75,147 @@ _**TODO**_
 From the high resolution of the model domain, each of the above $E_p$ functions are adjusted further by considering the slope and aspect of the model cell.
 
 _**TODO**_
+
+
+
+# Equations
+_**TODO**_
+# Potential Evapotranspiration Equations
+
+## Glossary
+
+potential evapotranspiration (mm/s);
+ net radiation (W/m²)
+ global radiation (W/m²)
+ extraterrestrial solar radiation (W/m²)
+ ground heat flux (W/m²)
+ latent heat of vapouration (J/kg)
+ Temperature (°C)
+ Atmospheric pressure (kPa)
+ Psychrometric Constant (kPa/K)
+ Slope of the saturation vapour pressure vs. temperature curve (kPa/K)
+ aerodynamic resistance (s/m)
+ canopy/stomatal resistance (s/m)
+ vapour pressure (kPa)
+ saturated vapour pressure (kPa)
+ density of air (g/m³)
+ density of water ( ) (g/m³)
+ specific heat capacity of air ( ) (J/g/K)
+
+## Combination Equations
+
+### Penman (1948) – based on a Dalton approach
+
+### Penman-Monteith (Monteith, 1965)
+
+### Priestly-Taylor (1972)
+
+## Empirical Equations (generally for the estimation of daily )
+
+### Makkink (1957)
+
+background energy flux (W/m²)
+
+### Turc (1961)
+
+correction factor for when RH \<50%
+ critical temperature (°C)
+
+### Jensen Haise (1963)
+
+critical temperature (°C) (Jensen Haise,1963)
+ parameter (Jensen Haise,1963)
+
+### Hargreaves (1975)
+
+temperature (in degrees Celsius)
+ temperature (in degrees Fahrenheit)
+ Typically, and . Note
+
+### Hargreaves-Samani (1982)/Hargreaves et.al. (1985)
+
+### Thornthwaite (1948)
+
+number of sunshine hours per 12 hours
+ average temperature of month, (°C)
+ temperature parameter
+ parameter
+
+### Hamon (1961)
+
+parameter
+ vapour density (g/m³)
+
+### Tichomirov (Chrgijan, 1986) – for open water
+
+parameter
+ wind velocity coefficient
+ average daily wind velocity (m/s)
+
+## Other
+
+### Aerodynamic Resistance
+
+velocity at elevation
+ zero-plane displacement height (m)
+ roughness length (m)
+ von-Karman's constant
+
+### Sine-curve
+
+Julian day
+ day offset from Jan 1st when occurs
+ average annual daily PET (mm/d)
+
+### Enthalpy-Based Function 1
+
+parameter
+ atmospheric mixing depth (m)
+ specific enthalpy of air (MJ/kg)
+ density of air (g/m³)
+
+### Enthalpy-Based Function 2
+
+parameter
+ atmospheric mixing depth (m)
+ dry static energy of air (J/g)
+ density of air (g/m³)
+
+temperature in Kelvin
+ enthalpy of air (J/g)
+ gravitiational acceleration (m/s²)
+ relative height of air parcel (m), assumed to be
+
+## Relationships
+
+### Unit conversions
+
+### Physical properties
+
+From Maidment (1992) – _Handbook of Hydrology_
+
+# References
+
+Chrgijan A.Ch (1986) Physics of atmosphere. Izdat Moskovskovo Universiteta, Moskva (In Russian)
+
+Hamon, W.R., 1961. Estimating potential evapotranspiration, Proc. Am. Soc. Civil Engrs., Jour. of the Hydraulics Div., 87, HY3, Pt. 1, pp. 107-120.
+
+Hargreaves, G. H., 1975. Moisture availability and crop production. Transactions of the ASAE, 18(5), 980–984.
+
+Hargreaves, G.L., G.H. Hargreaves, and J.P. Riley, 1985. Agricultural Benefits for Senegal River Basin. Journal of Irrigation and Drainage Engineering 111(2). pg. 113–124.
+
+Hargreaves, G.H., Z.A. Samani (1982) Estimating Potential Evapotranspiration. Journal of the Irrigation and Drainage Division, 1982, Vol. 108, Issue 3, Pg. 225-230.
+
+Jensen, M.E., H.R. Haise, 1963. Estimating Evapotranspiration from Solar Radiation. Proc. ASCE, J. of Irrigation and Drainage Div., 89:15-41.
+
+Makkink, G.F. (1957) Testing the Penman formula by means of lysimeters. Int. J. Water Engng 11, 277–288.
+
+Monteith, J.L. (1965) Evaporation and environment. Symposia of the Society for Experimental Biology 19: 205–224.
+
+Penman, H.L. (1948) Natural evaporation from open water, bare soil and grass. Proceedings of the Royal Society of London. Series A, Mathematical and Physical Sciences 193(1032): 120-145.
+
+Priestley, C.H.B. and R.J. Taylor, 1972. On the Assessment of Surface Heat Flux and Evaporation Using Large-Scale Parameters. Monthly Weather Review 100. pg. 81-92.
+
+Thornthwaite, C.W., 1948. An Approach Toward a Rational Classification of Climate. Geographic Review 38. pp. 55–94.
+
+Turc, L., 1961. Evaluation des besoins en eau d'irrigation, évapotranspiration potentielle, formulation simplifié et mise à jour. Annales Agronmique. 12, 13–49.

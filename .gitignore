@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Rprofile
+*.Rproj
+
+/old
+*.bak
+*.gob
+*.rar
