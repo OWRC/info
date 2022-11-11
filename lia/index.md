@@ -85,3 +85,7 @@ after updating fluxes for time step $n+1$, cell heads are updated by:
 $$
 	\eta^{n+1}_{i,j} = \eta^n_{i,j} + \frac{\Delta t}{\Delta x}\left(q_x|^{n+1}_{i-1/2,j}-q_x|^{n+1}_{i+1/2,j}+q_y|^{n+1}_{i,j-1/2}-q_y|^{n+1}_{i,j+1/2}\right)
 $$
+
+## Source code
+
+[hosted on Github](https://github.com/maseology/goHydro/tree/master/lia)

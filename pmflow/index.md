@@ -447,3 +447,8 @@ $$
 $$
 
 after each outer iteration, where $n$ is the number of finite difference cells being solved.
+
+
+## Source code
+
+[hosted on Github](https://github.com/maseology/richards1D)
