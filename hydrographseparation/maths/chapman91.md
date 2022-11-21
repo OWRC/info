@@ -43,6 +43,7 @@ where $\alpha=k$, the recession coeficient.
 $$
   b_t = \alpha b_{t-1} + \beta q_t + \gamma q_{t-1}
 $$
+
 $$
   \alpha = \frac{3k-1}{3-k} \qquad \beta = \frac{1-k}{3-k} \qquad \gamma=\frac{1-k}{3-k}
 $$

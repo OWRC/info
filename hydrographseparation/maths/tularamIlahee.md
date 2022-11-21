@@ -16,4 +16,5 @@ $$b_t=ab_{t-1}+(1-a)q_t$$
 $$
   b_t = \alpha b_{t-1} + \beta q_t + \gamma q_{t-1}
 $$
+
 $$\alpha = a \qquad \beta = 1-a \qquad \gamma=0.0$$

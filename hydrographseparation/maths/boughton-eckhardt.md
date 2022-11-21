@@ -31,6 +31,7 @@ $$
 $$
   b_t = \alpha b_{t-1} + \beta q_t + \gamma q_{t-1}
 $$
+
 $$
   \alpha = \frac{k}{1+C} \qquad \beta = \frac{C}{1+C} \qquad \gamma=0
 $$

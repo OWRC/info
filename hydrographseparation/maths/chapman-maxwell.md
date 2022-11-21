@@ -20,6 +20,7 @@ $$
 $$
   Q(i) = Q_d(i) + Q_b(i)
 $$
+
 $$
   Q_b(i) + (1-k)Q_b(i) = kQ_b(i-1) +(1-k)Q(i)
 $$
@@ -33,6 +34,7 @@ $$
 $$
   b_t = \alpha b_{t-1} + \beta q_t + \gamma q_{t-1}
 $$
+
 $$
   \alpha = \frac{k}{2-k} \qquad \beta = \frac{1-k}{2-k} \qquad \gamma=0
 $$

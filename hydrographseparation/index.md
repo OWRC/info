@@ -66,7 +66,7 @@ The above empirical relation is included here as many automatic hydrograph separ
 
 ## Digital Filters
 
-Digital filters represent a set of automatic hydrograph separation algorithms that require no input other than the measured stream flow signal $(q)$. Considering the streamflow hydrograph as a signal is quite apt when dealing with digital filters, as they themselves were inspired from signal processing of Lyne and Hollick, 1979 (Nathan and McMahon, 1990). With respect to the quick and slow hydrograph components (Figure \ref{fig:conceptual_hydrograph}), hydrograph separation is nothing more than the application of a low-pass filter to the total streamflow signal.
+Digital filters represent a set of automatic hydrograph separation algorithms that require no input other than the measured stream flow signal $(q)$. Considering the streamflow hydrograph as a signal is quite apt when dealing with digital filters, as they themselves were inspired from signal processing of Lyne and Hollick, 1979 (Nathan and McMahon, 1990). With respect to the quick and slow hydrograph components, hydrograph separation is nothing more than the application of a low-pass filter to the total streamflow signal.
 
 Another point to note is that many authors have applied these digital filters in multiple passes, either in two-passes (forward $\to$ backward) or three-passes (forward $\to$ backward $\to$ forward) to increase the smoothing of the resulting slow flow signal (Chapman, 1991).
 
@@ -135,31 +135,31 @@ $$\alpha = a \qquad \beta = 1-a \qquad \gamma=0.0$$
 
 #### __*Digital filter equations in their published form:*__
 
-Lyne and Hollick (1979):
+[Lyne and Hollick](/info/hydrographseparation/maths/lyne-hollick.html) (1979):
 
 $$b_t = ab_{t-1} + \frac{1-a}{2}\left(q_t + q_{t-1}\right)$$
 
-Chapman (1991):
+[Chapman](/info/hydrographseparation/maths/chapman91.html) (1991):
 
 $$b_t = \frac{3k-1}{3-k}b_{t-1} + \frac{1-k}{3-k}\left(q_t + q_{t-1}\right)$$
 
-Chapman and Maxwell (1996):
+[Chapman and Maxwell](/info/hydrographseparation/maths/chapman-maxwell.html) (1996):
 
 $$b_t = \frac{k}{2-k}b_{t-1} + \frac{1-k}{2-k}q_t$$
 
-Boughton (1993):
+[Boughton](/info/hydrographseparation/maths/boughton-eckhardt.html) (1993):
 
 $$b_t = \frac{k}{1+C}b_{t-1} + \frac{C}{1+C}q_t$$
 	
-Eckhardt (2005):
+[Eckhardt](/info/hydrographseparation/maths/boughton-eckhardt.html) (2005):
 
 $$b_t = \frac{(1-\text{BFI}_\text{max})kb_{t-1} + (1-k)\text{BFI}_\text{max}q_t}{1-k\text{BFI}_\text{max}}$$
 	
-Jakeman and Hornberger (1993):
+[Jakeman and Hornberger](/maths/jakeman-hornberger.html) (1993):
 
 $$b_t = \frac{a}{1+C}b_{t-1} + \frac{C}{1+C}\left(q_t + \alpha_s q_{t-1}\right)$$	
 
-Tularam and Ilahee (2008):
+[Tularam and Ilahee](/maths/tularamIlahee.html) (2008):
 
 $$b_t=ab_{t-1}+(1-a)q_t$$	
 
@@ -180,12 +180,14 @@ Piggott et.al. (2005) discussed how the UKIH technique can yield alternate basef
 1. Sweeping median:  returns the median of the $N$-staggered hydrographs.
 	
 ### HYSEP (3)
-The HYSEP technique (Sloto and Crouse, 1996). This method depends on the computed days of quick flow termination $N$. Like the UKIH method, the HYSEP techniques then proceed to determine minimum discharges within the $N$-day window. Three methods of producing baseflow estimates are computed in HYSEP and are reproduced here, they include:
+The HYSEP (Sloto and Crouse, 1996) method depends on the computed days of quick flow termination $N$. Like the UKIH method, the HYSEP techniques then proceed to determine minimum discharges within the $2N^*$-day window, where *"the interval $2N^*$ used for hydrograph separations is the odd integer between 3 and 11 nearest to $2N$"* (Sloto and Crouse, 1996). Three methods of producing baseflow estimates are computed in HYSEP and are reproduced here, they include:
 	
-1. Fixed interval: where baseflow is assumed to be the minimum discharge reported within sequential, non-overlapping $N$-day windows. Like the UKIH method, results from the fixed interval method is dependent on the ("fixed") window origin;
-1. Sliding interval: where baseflow is assumed to be the minimum discharge found within a moving $N$-day window. In contrast, this method tends to yield a higher BFI; and,
-1. Local minimum: linearly-interpolates total flow minima within a moving $N$-day window.
+1. Fixed interval: where baseflow is assumed to be the minimum discharge reported within sequential, non-overlapping $2N^*$-day windows. Like the UKIH method, results from the fixed interval method is dependent on the ("fixed") window origin;
+1. Sliding interval: where baseflow is assumed to be the minimum discharge found within a moving $[(2N^*-1)/2]$-day window. In contrast, this method tends to yield a higher BFI; and,
+1. Local minimum: linearly-interpolates total flow minima within a moving $[(2N^*-1)/2]$-day window.
 	
+
+
 ### PART (3)
 The PART technique (Rutledge, 1998). This method aims to reproduce the conceptual hydrograph represented in the Figures above. Using a combination of quick flow termination estimates $(N)$, recession coefficients $(k)$, and a parameter termed the "antecedent requirement," a combination of forward and backward filtering techniques are used in producing the final hydrograph separation estimates. Three estimates using the PART method are produced here, based on the suggested antecedent requirement choices offered by Rutledge (1998):
 	

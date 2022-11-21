@@ -16,6 +16,7 @@ $$b_t = \frac{a}{1+C}b_{t-1} + \frac{C}{1+C}\left(q_t + \alpha_s q_{t-1}\right)$
 $$
   b_t = \alpha b_{t-1} + \beta q_t + \gamma q_{t-1}
 $$
+
 $$
 \alpha = \frac{a}{1+C} \qquad \beta = \frac{C}{1+C} \qquad \gamma=\beta\alpha_s
 $$

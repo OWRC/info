@@ -18,6 +18,7 @@ $$
 $$
   y_k = f_k + b_k
 $$
+
 $$
   b_k = y_k-af_{k-1} - b\left(y_k-y_{k-1}\right) \qquad b=\frac{(1+a)}{2}
 $$
@@ -35,6 +36,7 @@ $$
 $$
   b_t = \alpha b_{t-1} + \beta q_t + \gamma q_{t-1}
 $$
+
 $$
   \alpha = a \qquad \beta = \frac{1-a}{2} \qquad \gamma=\frac{1-a}{2}
 $$
