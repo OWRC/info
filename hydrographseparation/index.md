@@ -57,7 +57,7 @@ where $A$ is the watershed area (km²).
 
 The above empirical relation is included here as many automatic hydrograph separation algorithms discussed below utilize this approximation. Hydrograph components and "quickflow cessation" $(N)$ is implicitly conceptualized when performing automatic hydrograph separation routines.
 
-<!-- ![Linsley and Franzini, 1964](fig/pinder1.png) -->
+<a name="LinsleyFranzini"></a>
 <img src="fig/pinder1.png" width="500" />
 
 > *Note for reference to the image above: "direct runoff" = quickflow, and "ground-water runoff" = slowflow.* Linsley and Franzini (1964)
@@ -180,7 +180,7 @@ Piggott et.al. (2005) discussed how the UKIH technique can yield alternate basef
 1. Sweeping median:  returns the median of the $N$-staggered hydrographs.
 	
 ### HYSEP (3)
-The HYSEP (Sloto and Crouse, 1996) method depends on the computed days of quick flow termination $N$. Like the UKIH method, the HYSEP techniques then proceed to determine minimum discharges within the $2N^*$-day window, where *"the interval $2N^*$ used for hydrograph separations is the odd integer between 3 and 11 nearest to $2N$"* (Sloto and Crouse, 1996). Three methods of producing baseflow estimates are computed in HYSEP and are reproduced here, they include:
+The HYSEP (Sloto and Crouse, 1996) method depends on the computed days of quick flow termination $N$. Like the UKIH method, the HYSEP techniques then proceed to determine minimum discharges within the $2N^*$-day window, where *"the interval $2N^*$ used for hydrograph separations is the odd integer between 3 and 11 nearest to $2N$\"* (Sloto and Crouse, 1996). Three methods of producing baseflow estimates are computed in HYSEP and are reproduced here, they include:
 	
 1. Fixed interval: where baseflow is assumed to be the minimum discharge reported within sequential, non-overlapping $2N^*$-day windows. Like the UKIH method, results from the fixed interval method is dependent on the ("fixed") window origin;
 1. Sliding interval: where baseflow is assumed to be the minimum discharge found within a moving $[(2N^*-1)/2]$-day window. In contrast, this method tends to yield a higher BFI; and,
@@ -189,12 +189,12 @@ The HYSEP (Sloto and Crouse, 1996) method depends on the computed days of quick 
 
 
 ### PART (3)
-The PART technique (Rutledge, 1998). This method aims to reproduce the conceptual hydrograph represented in the Figures above. Using a combination of quick flow termination estimates $(N)$, recession coefficients $(k)$, and a parameter termed the "antecedent requirement," a combination of forward and backward filtering techniques are used in producing the final hydrograph separation estimates. Three estimates using the PART method are produced here, based on the suggested antecedent requirement choices offered by Rutledge (1998):
+The PART technique (Rutledge, 1998) aims to reproduce the conceptual hydrograph represented in [the Figure above](#LinsleyFranzini). Using quick flow termination estimates $(N)$, recession coefficients $(k)$, and the concept of the "antecedent recession requirement," a combination of forward and backward filtering techniques are used in producing the final hydrograph separation estimates. Three estimates using the PART method are produced here, based on the suggested "antecedent recession requirement" choices offered by Rutledge (1998):
 	
-1. $\text{antecedent requirement} = 1$;
-1. $\text{antecedent requirement} = 2$; and, 
-1. $\text{antecedent requirement} = 3$.
+> *...once considering the requirement of antecedent recession to be the largest integer that is less than the result of $N$, and once for each of the next two larger integers.*
 	
+Then, "linear interpolation is used to estimate ground-water discharge during periods of surface runoff."
+
 
 ### Clarifica
 The Clarifica Inc., (2002) technique. This method separates the total flow hydrograph by performing two sweeps on the hydrograph. The first is a 6-day moving minimum, followed by a 5-day moving average (3-days previous, 1-day ahead). This method was designed for use within southern Ontario watersheds and tends to produce higher estimates of baseflow during peak flow events.

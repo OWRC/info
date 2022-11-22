@@ -5,7 +5,8 @@
 .Rprofile
 *.Rproj
 
-/old
+old/
+doc/
 *.bak
 *.gob
 *.rar
