@@ -180,7 +180,7 @@ Piggott et.al. (2005) discussed how the UKIH technique can yield alternate basef
 1. Sweeping median:  returns the median of the $N$-staggered hydrographs.
 	
 ### HYSEP (3)
-The HYSEP (Sloto and Crouse, 1996) method depends on the computed days of quick flow termination $N$. Like the UKIH method, the HYSEP techniques then proceed to determine minimum discharges within the $2N^*$-day window, where *"the interval $2N^*$ used for hydrograph separations is the odd integer between 3 and 11 nearest to $2N$\"* (Sloto and Crouse, 1996). Three methods of producing baseflow estimates are computed in HYSEP and are reproduced here, they include:
+The HYSEP (Sloto and Crouse, 1996) method depends on the computed days of quick flow termination $N$. Like the UKIH method, the HYSEP techniques then proceed to determine minimum discharges within the $2N^*$-day window, where *"the interval $2N^*$ used for hydrograph separations is the odd integer between 3 and 11 nearest to $2N$ "* (Sloto and Crouse, 1996). Three methods of producing baseflow estimates are computed in HYSEP and are reproduced here, they include:
 	
 1. Fixed interval: where baseflow is assumed to be the minimum discharge reported within sequential, non-overlapping $2N^*$-day windows. Like the UKIH method, results from the fixed interval method is dependent on the ("fixed") window origin;
 1. Sliding interval: where baseflow is assumed to be the minimum discharge found within a moving $[(2N^*-1)/2]$-day window. In contrast, this method tends to yield a higher BFI; and,
