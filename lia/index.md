@@ -1,5 +1,6 @@
 ---
-title: Lateral movement of land surface moisture
+title: Shallow water overland flow
+subtitle: Lateral movement of water over the land surface
 author: M.Marchildon
 date: 2019
 output: html_document
