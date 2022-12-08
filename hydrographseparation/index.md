@@ -212,6 +212,8 @@ Another honorable mention is the proceedure from the benchmark paper by Hewlett 
 <a name="HewlettHibbert"></a>
 <img src="fig/HewlettHibbert.png" width="650" />
 
+This approach too, has not been applied.
+
 <br>
 
 <br>
