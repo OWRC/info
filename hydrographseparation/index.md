@@ -180,9 +180,9 @@ Piggott et.al. (2005) discussed how the UKIH technique can yield alternate basef
 1. Sweeping median:  returns the median of the $N$-staggered hydrographs.
 	
 ### HYSEP (3)
-The HYSEP (Sloto and Crouse, 1996) method depends on the computed days of quick flow termination $N$. Like the UKIH method, the HYSEP techniques then proceed to determine minimum discharges within the $2N^*$-day window, where *"the interval $2N^*$ used for hydrograph separations is the odd integer between 3 and 11 nearest to $2N$ "* (Sloto and Crouse, 1996). Three methods of producing baseflow estimates are computed in HYSEP and are reproduced here, they include:
+The HYSEP (Sloto and Crouse, 1996) method depends on the computed days of quick flow termination $N$. Like the UKIH method, the HYSEP techniques then proceed to determine minimum discharges within the $2N^\ast$-day window, where "the interval $2N^\ast$ used for hydrograph separations is the odd integer between 3 and 11 nearest to $2N$ " (Sloto and Crouse, 1996). Three methods of producing baseflow estimates are computed in HYSEP and are reproduced here, they include:
 	
-1. Fixed interval: where baseflow is assumed to be the minimum discharge reported within sequential, non-overlapping $2N^*$-day windows. Like the UKIH method, results from the fixed interval method is dependent on the ("fixed") window origin;
+1. Fixed interval: where baseflow is assumed to be the minimum discharge reported within sequential, non-overlapping $2N^* $-day windows. Like the UKIH method, results from the fixed interval method is dependent on the ("fixed") window origin;
 1. Sliding interval: where baseflow is assumed to be the minimum discharge found within a moving $[(2N^*-1)/2]$-day window. In contrast, this method tends to yield a higher BFI; and,
 1. Local minimum: linearly-interpolates total flow minima within a moving $[(2N^*-1)/2]$-day window.
 	
@@ -191,7 +191,7 @@ The HYSEP (Sloto and Crouse, 1996) method depends on the computed days of quick 
 ### PART (3)
 The PART technique (Rutledge, 1998) aims to reproduce the conceptual hydrograph represented in [the Figure above](#LinsleyFranzini). Using quick flow termination estimates $(N)$, recession coefficients $(k)$, and the concept of the "antecedent recession requirement," a combination of forward and backward filtering techniques are used in producing the final hydrograph separation estimates. Three estimates using the PART method are produced here, based on the suggested "antecedent recession requirement" choices offered by Rutledge (1998):
 	
-> *...once considering the requirement of antecedent recession to be the largest integer that is less than the result of $N$, and once for each of the next two larger integers.*
+> *...once considering the requirement of antecedent recession to be the largest integer that is less than the result of N, and once for each of the next two larger integers.*
 	
 Then, "linear interpolation is used to estimate ground-water discharge during periods of surface runoff."
 
@@ -199,12 +199,22 @@ Then, "linear interpolation is used to estimate ground-water discharge during pe
 ### Clarifica
 The Clarifica Inc., (2002) technique. This method separates the total flow hydrograph by performing two sweeps on the hydrograph. The first is a 6-day moving minimum, followed by a 5-day moving average (3-days previous, 1-day ahead). This method was designed for use within southern Ontario watersheds and tends to produce higher estimates of baseflow during peak flow events.
 	
+	
 ## Physically-based digital filters
 Another class of hydrograph separation routines are those deemed "physically-based" (Furey and Gupta, 2001). These methods of separation allow for additional input, such as climate conditions, to help guide the separation of the hydrograph; contrast this to the above methods where only parameters need tuning until the desired ("arbitrary") slowflow signal is produced.
 
 Furey and Gupta (2001) presented a digital filter that was formulated this way. At the moment, physically-based digital filters have not been applied.
 
 
+## Curve-fitting
+Another honorable mention is the proceedure from the benchmark paper by Hewlett and Hibbert (1967). Here, quick flow is separated by identifying rising portions of the hydrograph that exceed a pre-defined "separation" rate, defined by the authors as being 0.05 ft³/s/mi²/hr ($\approx$ 0.00055 m³/s/km²/hr), deemed suitable for *"small forested watersheds in the Appalachian-Piedmont region."*
+
+<a name="HewlettHibbert"></a>
+<img src="fig/HewlettHibbert.png" width="500" />
+
+<br>
+
+<br>
 
 # Source code
 The above algorithms are available using [the following jupyter script](https://github.com/OWRC/education/blob/main/hydrographseparation/src/hydrographseparation.ipynb), some edits may be required to accommodate data format. In its current state, it readily reads a hydrograph .csv file with the header: `"Date,Flow,Flag"`.
@@ -224,6 +234,8 @@ Clarifica Inc., 2002. Water Budget in Urbanizing Watersheds: Duffins Creek Water
 Eckhardt, K., 2005. How to construct recursive digital filters for baseflow separation. Hydrological Processes 19, 507-515.
 
 Furey, PR. and VK Gupta. 2001. A physically based filter for separating base flow from streamflow records. Water Resources Research, 37(11): 2709-2722.
+
+Hewlett J.D. and A.R. Hibbert, 1967. Factor Affecting the Response of Small Watersheds to Precipitation in Humid Areas. in: W.E. Sopper and H.W. Lull (ed.), Forest Hydrology, Pergamon, New York, N.Y., pp. 275-290.
 
 Institute of Hydrology, 1980. Low Flow Studies report. Wallingford, UK.
 
