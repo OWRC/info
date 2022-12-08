@@ -207,10 +207,10 @@ Furey and Gupta (2001) presented a digital filter that was formulated this way. 
 
 
 ## Curve-fitting
-Another honorable mention is the proceedure from the benchmark paper by Hewlett and Hibbert (1967). Here, quick flow is separated by identifying rising portions of the hydrograph that exceed a pre-defined "separation" rate, defined by the authors as being 0.05 ft³/s/mi²/hr ($\approx$ 0.00055 m³/s/km²/hr), deemed suitable for *"small forested watersheds in the Appalachian-Piedmont region."*
+Another honorable mention is the proceedure from the benchmark paper by Hewlett and Hibbert (1967). Here, quick flow is separated by identifying rising portions of the hydrograph that exceed a pre-defined "separation" rate, defined by the authors as being 0.05 ft³/s/mi²/hr ($\approx$ 0.00055 m³/s/km²/hr) and deemed suitable for *"small forested watersheds in the Appalachian-Piedmont region."*
 
 <a name="HewlettHibbert"></a>
-<img src="fig/HewlettHibbert.png" width="500" />
+<img src="fig/HewlettHibbert.png" width="650" />
 
 <br>
 
