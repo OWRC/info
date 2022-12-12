@@ -20,6 +20,6 @@ In addition to these data, over 13,000 spotflow measurements collected along muc
 
 A summary map of stream profiles within the Oak Ridges Moraine boundary can be viewed below:
 
-<-- [here](https://maps.oakridgeswater.ca/Html5Viewer/index.html?viewer=ORMGPP&run=StreamflowProfiles#). -->
+<!-- [here](https://maps.oakridgeswater.ca/Html5Viewer/index.html?viewer=ORMGPP&run=StreamflowProfiles#). -->
 
-<iframe src="[https://golang.oakridgeswater.ca/pages/baseflow-piechart.html](https://maps.oakridgeswater.ca/Html5Viewer/index.html?viewer=ORMGPP&run=StreamflowProfiles#)" width="100%" height="400" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://maps.oakridgeswater.ca/Html5Viewer/index.html?viewer=ORMGPP&run=StreamflowProfiles#" width="100%" height="400" scrolling="no" allowfullscreen></iframe>
