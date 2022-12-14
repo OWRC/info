@@ -1,11 +1,11 @@
 ---
-title: Geothermal transport modelling
+subtitle: Geothermal transport modelling
 author: M. Marchildon
 date: 2021-02-03
 output: html_document
 ---
 
-## Theory
+# Theory
 
 Assumptions:
 
