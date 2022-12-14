@@ -8,6 +8,7 @@ output: html_document
     * [Drilling](md/drilling.html)
     * [Bedrock Geology](md/bedrock.html)
     * [Sedimentology](md/sedimentology.html)
+* [Database](md/database.html) 
 * [Long-term Climate](md/climate.html)
 * [Planning](md/planning.html)
 * [Hydrogeology](md/hydrogeology.html)
