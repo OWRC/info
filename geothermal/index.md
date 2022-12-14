@@ -5,7 +5,10 @@ date: 2021-02-03
 output: html_document
 ---
 
-# Theory
+* TOC
+{:toc}
+
+### Theory
 
 Assumptions:
 
