@@ -9,7 +9,9 @@ output: html_document
     * [Bedrock Geology](md/bedrock.html)
     * [Sedimentology](md/sedimentology.html)
 * [Long-term Climate](md/climate.html)
+
 * [Planning](md/planning.html)
+
 * [Hydrogeology](md/hydrogeology.html)
     * [Hydrostratigraphic Units](md/hydrostratigraphicunits.html)
     * [Hydraulic Properties](md/hydraulicproperties.md)
