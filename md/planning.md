@@ -22,9 +22,7 @@ The study was ground-breaking for the time providing: direction to watershed pla
 
 Upon its release, the longer term objective was to have the policies be refined and updated as planners from the partner agencies tested their effectiveness in their day to day work. However, in 2005 – 2006, Source Water Protection initiatives were launched across the Province, superseding the short-term need for further work on this initiative. Source Water Protection work has led to the creation of approved Source Water Protection Plans across the Province which outline groundwater protection policies to address the protection of Ontario’s drinking water sources. The Source Water Protection Plans are available for review here:
 
-​
 * [CTC Region](https://ctcswp.ca/protecting-our-water/the-ctc-source-protection-plan/)
 * [Southern Georgian Bay and Lake Simcoe Region](https://ourwatershed.ca/resources/reports-and-plans/source-protection-plan/)
-    
+* [Trent Coalition](https://ourwatershed.ca/resources/reports-and-plans/source-protection-plan/](https://trentsourceprotection.on.ca/)
 
-    Trent Coalition
