@@ -24,5 +24,5 @@ Upon its release, the longer term objective was to have the policies be refined 
 
 * [CTC Region](https://ctcswp.ca/protecting-our-water/the-ctc-source-protection-plan/)
 * [Southern Georgian Bay and Lake Simcoe Region](https://ourwatershed.ca/resources/reports-and-plans/source-protection-plan/)
-* [Trent Coalition](https://ourwatershed.ca/resources/reports-and-plans/source-protection-plan/](https://trentsourceprotection.on.ca/)
+* [Trent Coalition](https://trentsourceprotection.on.ca/)
 
