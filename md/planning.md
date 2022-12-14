@@ -1,12 +1,9 @@
 ---
-title: 
+title: Planning
 author: Oak Ridges Moraine Groundwater Program
 output: html_document
 ---
-
-
-# 
-
+# Planning
 
 Since its inception in 2001, the Oak Ridges Moraine Groundwater Program has had a strong technical and scientific direction. However, there remains a need to ensure that the scientific understanding gained from the program, as well as from other programs (e.g. Source Water Protection), continues to support day-to-day decision making. This is done by ensuring that groundwater related policies are scientifically defensible.
 
