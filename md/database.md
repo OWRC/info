@@ -1,5 +1,5 @@
 ---
-title: General Information
+title: Database
 author: Oak Ridges Moraine Groundwater Program
 output: html_document
 ---
@@ -10,7 +10,7 @@ A concerning issue related to water data is the large number of practitioners th
 
 An updated 2021 Database manual is now available:
 
-2021 – ORMGP_Database_Manual_v7
+*[2021 – ORMGP_Database_Manual_v7](https://www.oakridgeswater.ca/_files/ugd/4a0a6e_c8e794dabfe448cdb673fe819e3addbd.pdf)
 2021 – ORMGP_Database_Manual_v7- Appendices 
 
 So what is the purpose of collecting and managing all of this water data? 
