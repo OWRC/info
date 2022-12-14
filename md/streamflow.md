@@ -24,6 +24,6 @@ A summary map of stream profiles within the Oak Ridges Moraine boundary can be v
 
 <!-- <iframe src="https://maps.oakridgeswater.ca/Html5Viewer/index.html?viewer=ORMGPP&run=StreamflowProfiles#" width="100%" height="400"></iframe> -->
 
-* [Hydrograph separation](https://owrc.github.io/info/hydrographseparation/)
+* [Hydrograph separation](/info/hydrographseparation/)
 * [hydrograph disaggregation](https://owrc.github.io/info/hydrographdisaggregation/)
 * [Streamflow recession coefficient](https://owrc.github.io/info/recessioncoefficient/)
