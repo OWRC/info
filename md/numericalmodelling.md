@@ -17,7 +17,7 @@ Numerical modelling is a technique used by water resources practitioners that in
 <a href="https://maps.oakridgeswater.ca/Html5Viewer/index.html?viewer=ORMGPP&run=NumericalModels" target="_blank">Click here</a> to view numerical models available within the Oak Ridges Moraine boundaries.
 
 * [Evaporation](/info/evaporation/)
-* [Solar Radiation Transmittance](info/solarradiation/)    
+* [Solar Radiation Transmittance](/info/solarradiation/)    
 * [Geothermal modelling](/info/geothermal/)
 * [Multiphase flow through porous media](/info/pmflow/)
 * [Shallow water overland flow](/info/lia/)
