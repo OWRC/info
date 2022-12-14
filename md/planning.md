@@ -1,4 +1,12 @@
-Planning
+---
+title: 
+author: Oak Ridges Moraine Groundwater Program
+output: html_document
+---
+
+
+# 
+
 
 Since its inception in 2001, the Oak Ridges Moraine Groundwater Program has had a strong technical and scientific direction. However, there remains a need to ensure that the scientific understanding gained from the program, as well as from other programs (e.g. Source Water Protection), continues to support day-to-day decision making. This is done by ensuring that groundwater related policies are scientifically defensible.
 
@@ -15,9 +23,8 @@ The study was ground-breaking for the time providing: direction to watershed pla
 Upon its release, the longer term objective was to have the policies be refined and updated as planners from the partner agencies tested their effectiveness in their day to day work. However, in 2005 – 2006, Source Water Protection initiatives were launched across the Province, superseding the short-term need for further work on this initiative. Source Water Protection work has led to the creation of approved Source Water Protection Plans across the Province which outline groundwater protection policies to address the protection of Ontario’s drinking water sources. The Source Water Protection Plans are available for review here:
 
 ​
-
-    CTC Region
-
-    Southern Georgian Bay and Lake Simcoe Region
+* [CTC Region]([https://ctcswp.ca/protecting-our-water/the-ctc-source-protection-plan/])
+* [Southern Georgian Bay and Lake Simcoe Region]([https://ourwatershed.ca/resources/reports-and-plans/source-protection-plan/])
+    
 
     Trent Coalition
