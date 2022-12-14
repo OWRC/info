@@ -13,7 +13,7 @@ output: html_document
 * [Planning](md/planning.html)
 * [Hydrogeology](md/hydrogeology.html)
     * [Hydrostratigraphic Units](md/hydrostratigraphicunits.html)
-    * [Hydrogeologic Analysis](md/hydrogeologicanalysis.html)
+    * [Hydrogeologic Analysis](md/hydrogeologicanalysis.md)
     * [Hydraulic Properties](md/hydraulicproperties.md)
     * [Groundwater Flow](md/gwflow.html)
     * [Water Budget](md/waterbudget.html)
