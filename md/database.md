@@ -20,10 +20,10 @@ If it cannot be brought to bear on future decisions, then indeed it might be a w
 Although the concept of “Data Driven Decision Making” sounds perfectly reasonable, in practice it is not implemented nearly as often as one would think. External influences (e.g. pressure from clients, money, poor access to data, etc.) can often have more of an influence on any given water management decision than turning to the data for answers. Sometimes it can can make sense to have other influences drive decisions – but the reality is it is often the cost of searching out past data that prevents practitioners from incorporating ‘what we know’ (i.e. data) into decision making. By creating a one-window approach to accessing water related data, the ORMGP program aims to allow practitioners and decision makers to at least factor ‘what the data says’ as a key element of any given decision.
 
 Since the inception of the program in 2001 the database has grown and as of late 2019, now incorporates:
-- >530,000 borehole locations (470,000 of these are MOE water well records, with the remainder comprised largely of consultant drilled geotechnical boreholes and various monitoring wells);
-- >10,700 geologically logged outcrops/river or bluff sections;
+- Over 530,000 borehole locations (470,000 of these are MOE water well records, with the remainder comprised largely of consultant drilled geotechnical boreholes and various monitoring wells);
+- Over 10,700 geologically logged outcrops/river or bluff sections;
 - 1.9 million geological layer descriptions;
-- > 12,000 geo-referenced consultant/other reports or papers;
+- Over 12,000 geo-referenced consultant/other reports or papers;
 - 119 million water-level measurements from over 700 monitoring wells;
 - 1.2 million daily pumping rate measurements from 80 active municipal drinking water supply wells;
 - 965,000 individual chemical constituent analyses from samples taken from any of the monitoring or pumping wells;
