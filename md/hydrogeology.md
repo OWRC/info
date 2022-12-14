@@ -25,6 +25,7 @@ Numerical Modeling is another tool that hydrogeologists use to help in understan
 
 ## Further information is available below:
 * [Hydrostratigraphic Units](hydrostratigraphicunits.html)
+* [Hydrogeologic Analysis](hydrogeologicanalysis.html)
 * [Hydraulic Properties](hydraulicproperties.md)
 * [Groundwater Flow](gwflow.html)
 * [Water Budget](waterbudget.html)
