@@ -24,6 +24,7 @@ output: html_document
 - $P$ atmospheric pressure (kPa)
 - $\gamma$ Psychrometric Constant (kPa/K)
 - $\Delta$ slope of the saturation vapour pressure vs. temperature curve (kPa/K)
+- $r$ relative humidity
 - $r_a$ aerodynamic resistance (s/m)
 - $r_c$ canopy/stomatal resistance (s/m)
 - $e$ vapour pressure (kPa)
@@ -144,13 +145,35 @@ $$
 where $a$ is a parameter, $b$ is the wind velocity coefficient and $u$ is average daily wind velocity (m/s)
 
 
-### general wind function
+###  the advective term [kg/m²/s] of Penman (1948)
 
 $$
-	E_a = a(1+bu)
+	E_a = \rho_a\frac{\varepsilon}{P}d_a\cdot f(u)
 $$
+
+where $d_a=(1-r)e_s$ is the vapour deficit [Pa], $e_s=f(T_a)$, the wind-function $f(u)=a+ub$ [m/s], where $u$ is wind speed [m/s].
+
+#### power form
+
+$$ f(u)=au^b $$
+
+This is the power form of open water evaporation $(E_o)$ used by Penman (1948). It is worth noting that this is modified from Penman (1948) in that it is assumed $T_s \approx T_a$, that is the relationship between surface temperature and air temperature is captured by this empirical equation.
+
+
 
 ## Other
+
+### Sine-curve
+
+$$
+	E_p = \left(\overline{E}_p-E_\text{min}\right)\left[1+\sin\left(\frac{2\pi}{365}\left(i-\varphi\right)-\frac{\pi}{2}\right)\right]+E_\text{min}
+$$
+
+where $\overline{E}_p$ is the average annual $E_p$, $E_\text{min}$ is the minimum annual $E_p$, $i$ is the day of year from January 1st and $\varphi$ is the day offset from  Jan 1st when $E_\text{min}$ occurs $(\varphi\approx15)$.
+
+Julian day
+ day offset from Jan 1st when occurs
+ average annual daily PET (mm/d)
 
 ### Aerodynamic Resistance
 
@@ -159,11 +182,6 @@ velocity at elevation
  roughness length (m)
  von-Karman's constant
 
-### Sine-curve
-
-Julian day
- day offset from Jan 1st when occurs
- average annual daily PET (mm/d)
 
 ### Enthalpy-Based Function 1
 
@@ -196,10 +214,10 @@ From Maidment (1992) – _Handbook of Hydrology_
 
 
 
-# Total Evaporation (*TODO*)
-Total evaporation, i.e., loss from the computational element to the atmosphere, including plant transpiration, evaporation from land surface, soil pores and interception stores, is dependent on the current soil moisture storage ($S$), soil moisture capacity ($S_\text{max}$) and potential evapotranspiration ($E_p$), which is interpreted here as the capacity for the atmosphere to remove moisture from a saturated and replenishable surface.
+# Testing Evaporation Models (*TODO*)
 
-Four varieties of potential evapotranspiration is explored, all varying in simplicity that depends on data availability. The first is dependent only on the day of year and an estimate of long-term average annual $E_p$. Based on assumed southern Ontario conditions (i.e., evaporation generally limited by soil moisture), the simplest method that can be used is the sine curve function given by:
+
+Four varieties of potential evapotranspiration are explored, all varying in simplicity that dependence on data availability. The first is dependent only on the day of year and an estimate of long-term average annual $E_p$. Based on assumed southern Ontario conditions (i.e., evaporation generally limited by soil moisture), the simplest method that can be used is the sine curve function given by:
 
 $$
 	E_p = \left(\overline{E}_p-E_\text{base}\right)\left[1+\sin\left(\frac{2\pi}{365}\left(i-\varphi\right)-\frac{\pi}{2}\right)\right]+E_\text{base},
@@ -207,7 +225,7 @@ $$
 
 where $\overline{E}_p$ is the average annual $E_p$, $E_\text{base}$ is the minimum annual $E_p$, $i$ is the day of year from January 1st and $\varphi$ is the day offset from $i$ when $E_\text{base}$ occurs.
 
-The next means of computing potential evaporation is based on the empirical Makkink (1957) method, which is functionally identical to the more common Priestly-Taylor (1972) approach. The main difference is that the Makkink method utilizes total incoming short-wave radiation, or "global radiation" ($K^\downarrow$), which is more readily available than net radiation $(Q^\ast)$ used in the Priestly-Taylor approach and other so-called combination approaches. In either case, both $K^\downarrow$ and $Q^\ast$ require observational measurements from sources that are rare and not adequately distributed at the regional scale the model is applied to. Instead, global radiation is approximated using a Prescott-type equation (Nov\'ak, 2012): <!-- pg.232 -->
+The next means of computing potential evaporation is based on the empirical Makkink (1957) method, which is functionally identical to the more common Priestly-Taylor (1972) approach. The main difference is that the Makkink method utilizes total incoming short-wave radiation, or "global radiation" $(K^\downarrow)$, which is more readily available than net radiation $(Q^\ast)$ used in the Priestly-Taylor approach and other so-called combination approaches. In either case, both $K^\downarrow$ and $Q^\ast$ require observational measurements from sources that are rare and not adequately distributed at the regional scale the model is applied to. Instead, global radiation is approximated using a Prescott-type equation (Nov\'ak, 2012): <!-- pg.232 -->
 
 $$
 	K^\downarrow = \left(a+b\frac{n}{N}\right)K_e,
