@@ -214,6 +214,9 @@ From Maidment (1992) – _Handbook of Hydrology_
 
 
 
+
+
+
 # Testing Evaporation Models (*TODO*)
 
 
@@ -225,7 +228,9 @@ $$
 
 where $\overline{E}_p$ is the average annual $E_p$, $E_\text{base}$ is the minimum annual $E_p$, $i$ is the day of year from January 1st and $\varphi$ is the day offset from $i$ when $E_\text{base}$ occurs.
 
-The next means of computing potential evaporation is based on the empirical Makkink (1957) method, which is functionally identical to the more common Priestly-Taylor (1972) approach. The main difference is that the Makkink method utilizes total incoming short-wave radiation, or "global radiation" $(K^\downarrow)$, which is more readily available than net radiation $(Q^\ast)$ used in the Priestly-Taylor approach and other so-called combination approaches. In either case, both $K^\downarrow$ and $Q^\ast$ require observational measurements from sources that are rare and not adequately distributed at the regional scale the model is applied to. Instead, global radiation is approximated using a Prescott-type equation (Nov\'ak, 2012): <!-- pg.232 -->
+The next means of computing potential evaporation is based on the empirical Makkink (1957) method, which is functionally identical to the more common Priestly-Taylor (1972) approach. The main difference is that the Makkink method utilizes total incoming short-wave radiation, or "global radiation" $(K^\downarrow)$, which is more readily available than net radiation $(Q^\ast)$ used in the Priestly-Taylor approach and other so-called combination approaches. In either case, both $K^\downarrow$ and $Q^\ast$ require observational measurements from sources that are rare and not adequately distributed at the regional scale the model is applied to. Instead, global radiation is approximated using a Prescott-type equation (Nov\'ak, 2012): 
+
+<!-- pg.232 -->
 
 $$
 	K^\downarrow = \left(a+b\frac{n}{N}\right)K_e,
@@ -273,14 +278,6 @@ where $k_s$ is the thermal conductivity of the soil, and $\partial T/\partial z$
 Lastly, the most sophisticated method not only incorporates atmospheric conditions, but surface conditions as well that can be parameterized with the model. The Penman-Monteith equation... 
 
 _**TODO**_
-
-
-## Land surface corrections
-
-From the high resolution of the model domain, each of the above $E_p$ functions are adjusted further by considering the slope and aspect of the model cell.
-
-_**TODO**_
-
 
 
 
