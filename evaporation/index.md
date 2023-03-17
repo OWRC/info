@@ -41,17 +41,12 @@ $$
 	\lambda E_p = \frac{\Delta(R-G) + \rho_a c_p(e_s-e)/r_a}{\gamma + \Delta}
 $$
 
-an equivalent form
+an equivalent form $(c_pP=\gamma\lambda\varepsilon)$
 
 $$
 	\lambda E_p = \frac{\frac{\Delta}{\gamma}(R-G) + \lambda E_a}{1+\frac{\Delta}{\gamma}}
 $$
 
-the $\Omega$-form
-
-$$
-	\lambda E_p = \Omega\frac{(R-G)}{1+\frac{\gamma}{\Delta}} + (1-\Omega)\frac{\lambda E_a}{1+\frac{\Delta}{\gamma}}
-$$
 
 
 ### Penman-Monteith (Monteith, 1965)
