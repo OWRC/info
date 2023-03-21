@@ -8,7 +8,7 @@ output: html_document
     * [Drilling](md/drilling.md)
     * [Bedrock Geology](md/bedrock.md)
     * [Sedimentology](md/sedimentology.md)
-    * [Development of Geologic Layers](https://owrc.github.io/GeoLayers/)
+    * [Development of Geologic Layers](/GeoLayers/)
 * [Database](md/database.md) 
 * [Long-term Climate](md/climate.md)
 * [Planning](md/planning.md)
