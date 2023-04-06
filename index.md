@@ -28,3 +28,5 @@ output: html_document
     * [Geothermal modelling](geothermal/)
     * [Multiphase flow through porous media](pmflow/)
     * [Shallow water overland flow](lia/)
+* Statistical Modelling
+    * [Generalized Additive Model](gam/)
