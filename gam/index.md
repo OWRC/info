@@ -5,7 +5,60 @@ output: html_document
 ---
 
 
-# Linear Models
+# Introduction
+
+Hydrographs (time-series of water quantity) of natural systems in southern Ontario can be characterized as being:
+
+1. auto-correlated
+1. strong seasonal signature
+1. long term trend
+
+To determine the variability around these rather broad constraints we require a model of the background signal and compute the variability between the background and observation.
+
+One could, in principle, decide to construct a numerical model of the system, and compare with observation, or to apply a statistical model which has the flexibility to provide a regression, conditioned on the above 3 points. Here, we chose the latter and have applied a Generalized Additive Model (GAM) regression scheme.
+
+The advantage with GAM is that the model is data-driven, meaning that there is no "system conceptualization" required and no physical process needing to be codified, other than the (self-evident) constraints listed above.
+
+One final assumption is the the variability/model error can be assumed to fit some form of exponential distribution.  The GAM can then return a seasonal estimate, with standard confidence intervals, normalized to any observed long trend.
+
+Some of the most attractive aspects to GAMs are that its parameters tend to be intuitive (e.g., "smoothing functions" are used to adjust the fit of the GAM). AMs essentially uses a user-specified number of smoothing splines placed at pre-specified points (known as "knots") to model data. For instance, with a hydrograph time series that exhibits a seasonal pattern it may be useful to placed knots centred on calendar months. GAMs allow for these splines to be cyclical, meaning that the smoothing function remains continuous up to its second derivative.
+
+Now there's nothing to fear with GAM theory, as shown in the appendix, linear regression applied in the majority of data science are actually a special case of a GAM.
+
+
+# Theory
+
+GAMs are chosen to represent hydrographs because the data contain a good deal of noisy auto-correlated data (that is, a sequence of measurements made in a short time frame tend to be correlated).
+
+It's apparent that there is a seasonal pattern to most hydrological data in southern Ontario. The GAM applied have 12 smoothing spline knots, one for every calendar month. These monthly knots are further specified as being a cyclic regression spline by assuring that the remains continuous to the second derivative at a years end (Wood, 2017).
+
+$$
+    f(t)=\sum_{m=1}^{12}\tilde{b}_m(t)\beta_m
+$$
+
+where $\tilde{b}_m(t)$ is the cyclic basis function for month $m$ at time $t$ multiplied by some parameter $\beta_m$.
+
+
+Finally, a model is added to keep track of any long-term temporal trends
+
+$$
+    g(\mu_i)=\mathbf{A}_i\boldsymbol\theta+
+    \sum_{m=1}^{12}\tilde{b}_m(t)\beta_m +
+    f_t(t)
+$$
+
+pg.318
+
+$$
+    y_i=\alpha + \sum_{j=1}^{m}f_j(x_{ji}) + \epsilon_i
+$$
+
+$\hat{\alpha}=\bar{y}$
+
+
+# Appendix
+
+## Linear Models
 
 $$ 
     \mathbf{y} = 
