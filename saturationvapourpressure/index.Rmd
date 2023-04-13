@@ -1,0 +1,34 @@
+---
+title: "Saturation Vapour Pressure"
+author: "M.Marchildon"
+date: "27/09/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(dplyr)
+```
+
+## August-Roche-Magnus approximation [Pa]
+> from pg.38 of Lu, N. and J.W. Godt, 2013. Hillslope Hydrology and Stability. Cambridge University Press. 437pp.) \
+> [Pa=N/m²] R²=1 for -30°C =< T =< 50°C
+
+$$ 
+  e_s=610.49 \cdot \exp\frac{17.625\cdot T_C}{T_C+243.04},
+$$
+
+where $T_C$ is air temperature in degrees celcius.
+
+
+```{r esplot}
+es.obs <- read.csv('es.csv',skip=1)
+
+es.obs %>% ggplot() +
+  geom_point(aes(Temperature,saturation.vapour.pressure.over.liquid.water)) +
+  geom_function(fun = function(x) 610.49*exp(17.625*x/(x+243.04))) +
+  xlim(c(-50,50)) +
+  coord_flip()
+  
+```
