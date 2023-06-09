@@ -26,35 +26,6 @@ Some of the most attractive aspects to GAMs are that its parameters tend to be i
 Now there's nothing to fear with GAM theory, as shown in the appendix, linear regression applied in the majority of data science are actually a special case of a GAM.
 
 
-# Theory
-
-GAMs are chosen to represent hydrographs because the data contain a good deal of noisy auto-correlated data (that is, a sequence of measurements made in a short time frame tend to be correlated).
-
-It's apparent that there is a seasonal pattern to most hydrological data in southern Ontario. The GAM applied have 12 smoothing spline knots, one for every calendar month. These monthly knots are further specified as being a cyclic regression spline by assuring that the remains continuous to the second derivative at a years end (Wood, 2017).
-
-$$
-    f(t)=\sum_{m=1}^{12}\tilde{b}_m(t)\beta_m
-$$
-
-where $\tilde{b}_m(t)$ is the cyclic basis function for month $m$ at time $t$ multiplied by some parameter $\beta_m$.
-
-
-Finally, a model is added to keep track of any long-term temporal trends
-
-$$
-    g(\mu_i)=\mathbf{A}_i\boldsymbol\theta+
-    \sum_{m=1}^{12}\tilde{b}_m(t)\beta_m +
-    f_t(t)
-$$
-
-pg.318
-
-$$
-    y_i=\alpha + \sum_{j=1}^{m}f_j(x_{ji}) + \epsilon_i
-$$
-
-$\hat{\alpha}=\bar{y}$
-
 
 # Appendix
 
@@ -185,7 +156,7 @@ $$
 $$
 
 
-# Generalized Additive Models
+## Generalized Additive Models
 
 > A generalized additive model (Hastie and Tibshirani, 1986, 1990) is a generalized linear model with a linear predictor involving a sum of smooth functions of covariates (Wood, 2017, pg.161)
 
@@ -198,8 +169,38 @@ $$
     f_3(x_{3i},x_{4i}) + \dots
 $$
 
-$\mathbf{A}_i$ is the $i^\text{th}$ row of a model matrix $\mathbf{A}$, $\boldsymbol\theta$ is the parameter vector.
+where $\mathbf{A}_i$ is the $i^\text{th}$ row of a model matrix $\mathbf{A}$, $\boldsymbol\theta$ is the parameter vector.
 
+
+## Generalized Additive Mixed Models (GAMM)
+
+$$
+    g(\mu_i)=
+    f_1(x_{1i}) +
+    f_2(x_{2i}) + \cdots +
+    f_p(x_{pi}) + 
+    \mathbf{A}_i\boldsymbol\theta +
+    \mathbf{Z}_i\mathbf{b}
+    ,\quad
+        \mathbf{b}\sim N(\mathbf{0},\boldsymbol\psi)
+$$
+
+## other
+
+$$
+    f(t)=\sum_{m=1}^{12}\tilde{b}_m(t)\beta_m
+$$
+
+where $\tilde{b}_m(t)$ is the cyclic basis function for month $m$ at time $t$ multiplied by some parameter $\beta_m$.
+
+
+<!-- pg.318 -->
+
+$$
+    y_i=\alpha + \sum_{j=1}^{m}f_j(x_{ji}) + \epsilon_i
+$$
+
+$\hat{\alpha}=\bar{y}$
 
 # References
 
