@@ -3,7 +3,7 @@ title: Bedrock Geology
 output: html_document
 ---
 
-# Beddrock Geology
+# Bedrock Geology
 
 The underlying Paleozoic bedrock in the study area was deposited on top of the Canadian Shield rocks over a period of 200 million years, beginning approximately 550 million years ago. Sediments from the erosion of the Taconic and Appalachian mountains, two ranges that formed from earlier mountain building events, infilled the Michigan Basin with limestone and shale units, which now underlie the study area. The map below shows the various bedrock formation units that underlie the glacial sediments in the study area. This is schematically shown on the Figure below taken from Ontario Rocks (Eyles, 2002).
 
