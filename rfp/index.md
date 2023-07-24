@@ -41,3 +41,11 @@ Delivery of model files must be provided in four separate file directories:
    1. GIS files in standard and properly projected GIS shapefiles (\*.shp; \*.asc) with metadata following the Federal Geographic Data Committee (FGDC) Content Standards for Digital Geospatial Metadata; and,
    1. Images – Graphical software project files (e.g., MatLab, R, Microsoft Excel, Golden Grapher/Surfer, TecPlot, ParaView, etc.) used in creating any report charts and figures must be provided to ensure reproducibility.
 
+
+# Additional language
+
+The *[Region/Municipality/Authority]* shall remain the owner of its data at all times and in all instances, including upon termination or bankruptcy. All of the *[Region/Municipality/Authority]*'s data and/or Customizations required to fulfill the obligations as described in RFP-xxxx-xxxx will be owned by the *[Region/Municipality/Authority]*, and may not be used by the Consultant for any other purpose other than those stated in the RFP-xxxx-xxxx without seeking the explicit written approval by the *[Region/Municipality/Authority]*. Customizations shall include all deliverables newly developed by Consultant in the performance of the Services for the specific and unique needs of *[Region/Municipality/Authority]* under this RFP.
+
+
+All data, geological interpretations, flow model files and revisions made to these files shall be provided to the *[Region/Municipality/Authority]* and the YPDTH-ORMGP model custodianship program.  Upon project completion, these files and any derivatives thereof shall remain the sole and exclusive property of Durham *[Region/Municipality/Authority]* and cannot be used by the successful consultant(s) for any other consulting projects without expressed written permission from the *[Region/Municipality/Authority]*.
+
