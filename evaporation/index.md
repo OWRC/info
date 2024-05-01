@@ -158,7 +158,7 @@ This is the power form of open water evaporation $(E_o)$ used by Penman (1948). 
 
 ## Other
 
-### Sine-curve
+### Sine-curveSS
 
 $$ 
 E_p = \left(\overline{E}_p-E_\text{min}\right)\left[1+\sin\left(\frac{2\pi}{365}\left(i-\varphi\right)-\frac{\pi}{2}\right)\right]+E_\text{min} 
