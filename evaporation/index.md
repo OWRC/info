@@ -164,7 +164,7 @@ $$
 	E_p = \left(\overline{E}_p-E_\text{min}\right)\left[1+\sin\left(\frac{2\pi}{365}\left(i-\varphi\right)-\frac{\pi}{2}\right)\right]+E_\text{min} 
 $$
 
-where \overline{E}_p is the average annual $E_p$, $E_\text{min}$ is the minimum annual $E_p$, $i$ is the day of year from January 1st and $\varphi$ is the day offset from January 1st when $E_\text{min}$ occurs $(\varphi\approx15)$.
+where $\overline{E}_p$ is the average annual $E_p$, $E_\text{min}$ is the minimum annual $E_p$, $i$ is the day of year from January 1st and $\varphi$ is the day offset from January 1st when $E_\text{min}$ occurs $(\varphi\approx15)$.
 
 Julian day
  offset from January 1st when occurs
