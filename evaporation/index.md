@@ -218,10 +218,10 @@ From Maidment (1992) – _Handbook of Hydrology_
 Four varieties of potential evapotranspiration are explored, all varying in simplicity that dependence on data availability. The first is dependent only on the day of year and an estimate of long-term average annual $E_p$. Based on assumed southern Ontario conditions (i.e., evaporation generally limited by soil moisture), the simplest method that can be used is the sine curve function given by:
 
 $$
-	E_p = \left(\overline{E}_p-E_\text{base}\right)\left[1+\sin\left(\frac{2\pi}{365}\left(i-\varphi\right)-\frac{\pi}{2}\right)\right]+E_\text{base},
+	E_p = \left(\overline{E_p}-E_\text{base}\right)\left[1+\sin\left(\frac{2\pi}{365}\left(i-\varphi\right)-\frac{\pi}{2}\right)\right]+E_\text{base},
 $$
 
-where $\overline{E}_p$ is the average annual $E_p$, $E_\text{base}$ is the minimum annual $E_p$, $i$ is the day of year from January 1st and $\varphi$ is the day offset from $i$ when $E_\text{base}$ occurs.
+where $\overline{E_p}$ is the average annual $E_p$, $E_\text{base}$ is the minimum annual $E_p$, $i$ is the day of year from January 1st and $\varphi$ is the day offset from $i$ when $E_\text{base}$ occurs.
 
 The next means of computing potential evaporation is based on the empirical Makkink (1957) method, which is functionally identical to the more common Priestly-Taylor (1972) approach. The main difference is that the Makkink method utilizes total incoming short-wave radiation, or "global radiation" $(K^\downarrow)$, which is more readily available than net radiation $(Q^\ast)$ used in the Priestly-Taylor approach and other so-called combination approaches. In either case, both $K^\downarrow$ and $Q^\ast$ require observational measurements from sources that are rare and not adequately distributed at the regional scale the model is applied to. Instead, global radiation is approximated using a Prescott-type equation (Nov\'ak, 2012): 
 
