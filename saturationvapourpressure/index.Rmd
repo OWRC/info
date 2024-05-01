@@ -19,7 +19,7 @@ $$
   e_s=610.49 \cdot \exp\frac{17.625\cdot T_C}{T_C+243.04},
 $$
 
-where $T_C$ is air temperature in degrees celcius.
+where $T_C$ is air temperature in degrees Celsius.
 
 
 ```{r esplot}
