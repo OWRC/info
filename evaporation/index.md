@@ -33,6 +33,8 @@ output: html_document
 - $\rho_w$ density of water ($\approx$ 1e6 g/m³)
 - $c_p$ specific heat capacity of air ($\approx$ 1.004 J/g/K)
 
+[*see also physical relationships below.*](#physical-properties)
+
 ## Combination Equations
 
 ### Penman (1948) – based on a Dalton approach
@@ -164,55 +166,78 @@ $$
 	E_p = \left(\overline{E_p}-E_\text{min}\right)\left[1+\sin\left(\frac{2\pi}{365}\left(i-\varphi\right)-\frac{\pi}{2}\right)\right]+E_\text{min} 
 $$
 
-where $\overline{E\_p}$ is the average annual $E\_p$, $E\_\text{min}$ is the minimum annual $E\_p$, $i$ is the day of year from January 1st and $\varphi$ is the day offset from January 1st when $E\_\text{min}$ occurs $(\varphi\approx15)$.
-
-- Julian day
-- offset from January 1st when occurs
-- average annual daily PET (mm/d)
-
-### Aerodynamic Resistance
-
-- velocity at elevation
-- zero-plane displacement height (m)
-- roughness length (m)
-- von-Karman's constant
-
+where $\overline{E\_p}$ is the average annual daily $E\_p$ (mm/d), $E\_\text{min}$ is the minimum annual $E\_p$, $i$ is the day of year from January 1st and $\varphi$ is the day offset from January 1st when $E\_\text{min}$ occurs $(\varphi\approx15)$.
 
 ### Enthalpy-Based Function 1
 
-parameter
-- atmospheric mixing depth (m)
-- specific enthalpy of air (MJ/kg)
-- density of air (g/m³)
+$$
+	\lambda E_p = \alpha R_g + d_mh_a\rho_a
+$$
+
+where $\alpha$ is a parameter, $d_m$ is the atmospheric mixing depth (m), $h_a$ is the specific enthalpy of air (MJ/kg), and $\rho_a$ is the density of air (g/m³).
 
 ### Enthalpy-Based Function 2
 
-parameter
-- atmospheric mixing depth (m)
-- dry static energy of air (J/g)
-- density of air (g/m³)
+$$
+	\lambda E_p = \alpha R_g + d_ms_a\rho_a
+$$
 
-temperature in Kelvin
-- enthalpy of air (J/g)
-- gravitiational acceleration (m/s²)
-- relative height of air parcel (m), assumed to be
+where the parameters are the same as above, only $s_a$ is the dry static energy of air (J/g) defined by:
+
+$$
+	s_a = c_pT_K+gz
+$$
+
+where $T_K$ is the air temperature in Kelvin, $cpT_K$ yields the enthalpy of air (J/g), $g$ is gravitiational acceleration (m/s²), and $z$ is the relative height of air parcel (m), assumed to be $\approx d_m/2$.
+
 
 ## Relationships
 
+### Aerodynamic Resistance
+
+$$
+	r_a = \frac{\ln^2\left(\frac{z-d_e}{z_0}\right)}{\kappa^2u_z}
+$$
+
+where $u_z$ is the velocity (m/s) at elevation $z$, $d_e$ is the zero-plane displacement height (m), $z_0$ is the roughness length (m), and $\kappa$ is the von-Karman constant $(\approx 0.41)$.
+
 ### Unit conversions
+
+$$
+	R_\text{(m/s)}=\frac{R_\text{(W/m²)}}{\lambda\rho_w}
+$$
+
+where $R_\text{(m/s)}$ is radiation express in equivalent evaporation rates.
 
 ### Physical properties
 
 From Maidment (1992) – _Handbook of Hydrology_
 
+$$
+	\lambda(T) = 2.501\times10^6-2631T
+$$
+
+$$
+	e_s(T) = 0.6108\exp\frac{17.27T}{237.3+T}
+$$
+
+$$
+	\Delta(T) = \frac{4098e_s}{(237.3+T)^2}
+$$
+
+$$
+	\gamma(\lambda) = \frac{c_pP}{0.622\cdot\lambda}
+$$
+
+$$
+	\rho_a(P,T) = 3486\frac{P}{275+T}
+$$
 
 
 
+<br> 
 
-
-
-
-# Testing Evaporation Models (*TODO*)
+# Testing Evaporation Models
 
 
 Four varieties of potential evapotranspiration are explored, all varying in simplicity that dependence on data availability. The first is dependent only on the day of year and an estimate of long-term average annual $E_p$. Based on assumed southern Ontario conditions (i.e., evaporation generally limited by soil moisture), the simplest method that can be used is the sine curve function given by:
