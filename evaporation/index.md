@@ -164,38 +164,38 @@ $$
 	E_p = \left(\overline{E_p}-E_\text{min}\right)\left[1+\sin\left(\frac{2\pi}{365}\left(i-\varphi\right)-\frac{\pi}{2}\right)\right]+E_\text{min} 
 $$
 
-where $\overline{E_p}$ is the average annual $E_p$, $E_\text{min}$ is the minimum annual $E_p$, $i$ is the day of year from January 1st and $\varphi$ is the day offset from January 1st when $E_\text{min}$ occurs $(\varphi\approx15)$.
+where $\overline{E\_p}$ is the average annual $E\_p$, $E\_\text{min}$ is the minimum annual $E\_p$, $i$ is the day of year from January 1st and $\varphi$ is the day offset from January 1st when $E\_\text{min}$ occurs $(\varphi\approx15)$.
 
-Julian day
- offset from January 1st when occurs
- average annual daily PET (mm/d)
+- Julian day
+- offset from January 1st when occurs
+- average annual daily PET (mm/d)
 
 ### Aerodynamic Resistance
 
-velocity at elevation
- zero-plane displacement height (m)
- roughness length (m)
- von-Karman's constant
+- velocity at elevation
+- zero-plane displacement height (m)
+- roughness length (m)
+- von-Karman's constant
 
 
 ### Enthalpy-Based Function 1
 
 parameter
- atmospheric mixing depth (m)
- specific enthalpy of air (MJ/kg)
- density of air (g/m³)
+- atmospheric mixing depth (m)
+- specific enthalpy of air (MJ/kg)
+- density of air (g/m³)
 
 ### Enthalpy-Based Function 2
 
 parameter
- atmospheric mixing depth (m)
- dry static energy of air (J/g)
- density of air (g/m³)
+- atmospheric mixing depth (m)
+- dry static energy of air (J/g)
+- density of air (g/m³)
 
 temperature in Kelvin
- enthalpy of air (J/g)
- gravitiational acceleration (m/s²)
- relative height of air parcel (m), assumed to be
+- enthalpy of air (J/g)
+- gravitiational acceleration (m/s²)
+- relative height of air parcel (m), assumed to be
 
 ## Relationships
 
