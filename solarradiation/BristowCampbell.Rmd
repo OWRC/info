@@ -14,7 +14,7 @@ library(dplyr)
 
 ## The Need
 
-It is desirable to compute global radiation $K_g$ using extraterrestrial solar radiation $K_e$ approximated using solar irradiation theory and a combination readily available climate monitoring data such as temperatures and precipitation. While there are many methods to choose from (e.g., the Prescott-type equation; the Linacre (1992) equation; or the Hargreaves (1977; 1981) equations), here the Bristow and Campbell (1984) relationship is chosen as it is flexible and relies on temperature data:
+It is desirable to compute global radiation ($K_g$) using extraterrestrial solar radiation ($K_e$) approximated using solar irradiation theory and a combination readily available climate monitoring data such as temperatures and precipitation. While there are many methods to choose from (e.g., the Prescott-type equation; the Linacre (1992) equation; or the Hargreaves (1977; 1981) equations), the Bristow and Campbell (1984) relationship is chosen as it is flexible and relies on temperature data:
 
 $$T_t = a\left[1 - e^{-b\Delta T^c}\right]$$
 
@@ -22,9 +22,9 @@ where $T_t$ is transmittance, and $a$, $b$ and $c$ are empirical coefficients. $
 
 $$K_g=T_tK_e$$
 
-The coefficients $a$, $b$ and $c$ have difference somewhat physical interpretations: $a$ is the maximum clear sky transmittance, and can vary from 0.6 in smoggy air to 0.9 clean air and clear skies (Oke, 1987). $b$ and $c$ determine how quickly $a$ is achieved with increasing $\Delta T$; Bristow and Campbell (1984) kept $c$ constant as $2.4$ and adjusted $b$ to fit data.
+The coefficients $a$, $b$ and $c$ have somewhat physical interpretations: $a$ is the maximum clear sky transmittance, and can vary from 0.6 in smoggy air to 0.9 clean air and clear skies (Oke, 1987). $b$ and $c$ determine how quickly $a$ is achieved with increasing $\Delta T$; Bristow and Campbell (1984) kept $c$ constant as $2.4$ and adjusted $b$ to fit data.
 
-As evident from below, there is a great deal of scatter in such data. Bristow and Campbell (1984) offered 3 "fixes" to the input data, none of which appeared to reduce the scatter, they included:
+As evident from below, there is a great deal of scatter in such data. Bristow and Campbell (1984) offered 3 "fixes" to the input data, none of which appeared to reduce the scatter:
 
   1. Set $\Delta T(j)=T_\text{max}(j) - 0.5\left(T_\text{min}(j)+T_\text{min}(j+1)\right)$ where $j$ is the day of observation. Here, Bristow and Campbell (1984) felt that relying on daily reported minimum and maximum temperatures caused some $\Delta T$ to be too excessive, and averaging the minimum temperatures before and after the daytime high helped reduce the noise. *This did not appear to here, based on visual observation and thus $\Delta T=T_\text{max} - T_\text{min}$ was used*;
   1. On days with measured precipitation, set $T_t=0.75T_t$; and, 
