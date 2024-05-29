@@ -1,9 +1,7 @@
 ---
-title: Hydrogeology
+title: Hydrostratigraphic Units
 output: html_document
 ---
-
-# Hydrostratigraphic Units
 
 Geologic layers or formations are often classified into Hydrostratigraphic Units for analysis during hydrogeologic investigations.  A hydrostratigraphic unit is a geologic formation, part of a formation, or a group of formations with similar hydrologic characteristics or properties (e.g. hydraulic conductivity or permeability) relating to groundwater flow.  Hydrostratigraphic units are then classified into aquifer or aquitard units (Freeze and Cherry, 1979; Domenico and Schwartz, 1990; Fetter, 2001).  Fluids flow more readily through aquifer units (e.g. sand and gravel) compared to aquitard units (e.g. clay).  Ultimately a single geologic layer or formation may be subdivided into multiple hydrostratigraphic units, including both aquifers and aquitards.
 
