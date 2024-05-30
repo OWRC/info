@@ -60,7 +60,7 @@ $D$ is an important term, it is why wetlands are *wet* and why many watercourses
 
 <iframe src="https://golang.oakridgeswater.ca/pages/Raven23WB-compare.html" width="100%" height="400" scrolling="no" allowfullscreen></iframe>
 
-_Comparison of groundwater recharge simulated using a hydrologial model (left) vs. an integrated groundwater/surface water model (right). Units are in millimetres per year (mm/yr). Notice how in the integrated case much of the low lying areas exhibit negative "net recharge", meaning that these are area where water tables are high and seepage to the surface is being simulated._
+_Comparison of groundwater recharge $(G)$ simulated using a hydrologial model (left) vs. net groundwater recharge $(G-D)$ an integrated groundwater/surface water model (right). Units are in millimetres per year (mm/yr). Notice how in the integrated case much of the low lying areas exhibit negative "net recharge", meaning that these are areas where water tables are high and seepage to the surface is being simulated._
 
 <br>
 
@@ -69,4 +69,4 @@ _Comparison of groundwater recharge simulated using a hydrologial model (left) v
 
 For more general information on Numerical Modelling activities at the ORMGP, <a href="https://owrc.github.io/interpolants/#numerical-modelling" target="_blank">Click here</a>.
 
-For details on our Long Term Integrated Water Budget Model, <a href="(https://owrc.github.io/interpolants/modelling/waterbudgetmodel.html" target="_blank">Click here</a>.
+For details on our Long Term Integrated Water Budget Model, <a href="https://owrc.github.io/interpolants/modelling/waterbudgetmodel.html" target="_blank">Click here</a>.
