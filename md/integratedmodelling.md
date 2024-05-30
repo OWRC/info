@@ -9,7 +9,9 @@ output: html_document
 
 ## Lumped model
 
-<img src="fig/cup.png" width="324" height="324">
+<img src="fig/cup.png" width="324">
+
+*i.e., the "bucket" model*
 
 ### Water Budget
 
@@ -84,6 +86,7 @@ $$ P+O+D=E+R+G+\Delta S $$
 
 ![](fig/model-table.png)
 
+<br>
 
 # Comparison
 
