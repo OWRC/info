@@ -88,5 +88,5 @@ $$
 $$
 
 ## Source code
-#SS remove broken link
-## [hosted on Github](https://github.com/maseology/goHydro/tree/master/lia)
+
+[hosted on Github](https://github.com/maseology/goLIA)
