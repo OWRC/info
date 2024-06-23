@@ -18,7 +18,7 @@ $$
     \hat{Q}_t = E \left\{ Q_t | Q_{t-1}, Q_{t-2}, \dots , Q_{t-n-1}, P_t, P_{t-1}, \dots , P_{t-n}, f(\cdot) \right\}
 $$
 
-where $\hat{Q}_t$ is the predicted discharge, $P$ is precipitation at time $t$, $Q_{t-1}$ is the dsicharge observe on the day previous, and $f(\cdot)$ is a sinusoidal function ranging from 0 to 1 at the winter and summer solstices, respectively. In all, there are $2n+1$ inputs and 1 output: Runoff. User selects the number of hidden dense layers and the number of nodes per layer.
+where $\hat{Q}\_t$ is the predicted discharge, $P$ is precipitation at time $t$, $Q\_{t-1}$ is the dsicharge observe on the day previous, and $f(\cdot)$ is a sinusoidal function ranging from 0 to 1 at the winter and summer solstices, respectively. In all, there are $2n+1$ inputs and 1 output: Runoff. User selects the number of hidden dense layers and the number of nodes per layer.
 
 ### Training stage
 
