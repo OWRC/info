@@ -14,4 +14,4 @@ $$
     P = E + R + G 
 $$
 
-Although the above equation appears simple, 
+Although the above equation appears simple, the terms $E$ and $G$ are practically immeasurable and neither can be determined with any degree of certainty.  To solve for the unknowns, hydrologists must equip themselves with a wide knowledge base of environmental processes from atmospheric sciences (climatology and meteorology), to the biophysical processes of vegetation (photosynthesis), to the structure and mechanics of soils (pedology), to geology and its effect on groundwater (hydrogeology).
