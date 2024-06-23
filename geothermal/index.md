@@ -1,7 +1,5 @@
 ---
-subtitle: Geothermal transport modelling
-author: M. Marchildon
-date: 2021-02-03
+title: Geothermal transport modelling
 output: html_document
 ---
 

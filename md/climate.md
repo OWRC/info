@@ -3,7 +3,6 @@ title: Climate Stations
 output: html_document
 ---
 
-# Climate Stations
 
 ![](fig/climate-300x300.webp)
 

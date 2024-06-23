@@ -3,9 +3,10 @@ title: Streamflow
 output: html_document
 ---
 
-# Streamflow
 
 ![](fig/IMG_3634.webp)
+
+<br>
 
 The amount of water flowing in a stream is an important component of the water budget. Continuous collection of streamflow data provides insight into the volume of water released from groundwater storage, as it is that part of precipitation that has not been lost to the atmosphere or to deeper aquifer systems. Streamflows have traditionally been separated into two distinct components: those that occur periodically during and after storm events in the form of overland flow (i.e., runoff); and those that originate from groundwater sources that tend to persist year-long, namely baseflow or groundwater discharge. The latter typifies Oak Ridges Moraine streams.
 

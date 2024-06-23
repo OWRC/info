@@ -1,11 +1,8 @@
 ---
-title: Water Budget
+title: Water Balance
 output: html_document
 ---
 
-# Water Budget
-
-## Water Balance
 
 In broad terms, the water balance is a form of accounting, with a currency of water.  In hydrology, the traditional concept of the water balance begins with precipitation $(P)$, which falls onto the land surface in the form of either rain or snow.  During a storm event (or a period of significant snowmelt), a portion of the rainfall (snowmelt) will accumulate in nearby streams, rivers, and storm sewers; this portion is commonly termed runoff $(R)$.  The portion of water that does not runoff remains on the land surface, and generally pools in puddles or is absorbed by the soil.
 
@@ -14,7 +11,7 @@ After the cessation of a storm, the water left behind becomes susceptible to eva
 But not all of the water that remains is lost to the atmosphere; some will continue to percolate deeper underground under the influence of gravity toward the water-table.  This is the water that replenishes groundwater based supplies, and is termed groundwater recharge $(G)$.  Over the long term, the water balance can be defined as:
 
 $$
- P = ET + R + G
+    P = ET + R + G
 $$
 ​
 Although the above equation appears simple, two terms $(ET \text{ and } G)$ are practically immeasurable and neither can be determined with any degree of certainty.  To solve for the unknowns, hydrologists must equip themselves with a wide knowledge base of environmental processes from atmospheric sciences (climatology and meteorology), to the biophysical processes of vegetation (photosynthesis), to the structure and mechanics of soils (pedology), to geology and its effect on groundwater (hydrogeology).  In addition, anthropogenic influences must also be taken into account. For example, how do agricultural practices affect the soil structure and vegetation distribution?   Given that urban infrastructure generally increases runoff at the expense of recharge and evapotranspiration, how does this change the water balance?

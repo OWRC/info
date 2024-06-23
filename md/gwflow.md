@@ -3,7 +3,7 @@ title: Groundwater Flow and Levels
 output: html_document
 ---
 
-# Groundwater Flow and Levels
+
 
 Groundwater moves in the subsurface from areas of high potential energy to areas of low potential energy. Luckily for hydrogeologists the hydraulic head or static water level at any given point in the subsurface is a measure of this energy. Therefore groundwater moves from areas of high hydraulic head to areas of lower hydraulic head. 
 By contouring up the hydraulic heads from wells within the same aquifer, hydrogeologists can start to estimate the directions and magnitude of groundwater movement in the subsurface. It must be highlighted that water levels measured at different depths in the subsurface can be very different. For example in regional groundwater discharge areas, groundwater is rising to the surface from depth. In such areas, water level measurements in the shallow subsurface will tend to be lower than the measurements made at depth and groundwater will move upwards in response to this vertical hydraulic gradient. Conversely, in regional groundwater recharge areas the hydraulic head would tend to decrease with increasing depth and water will move downwards in response to this downward hydraulic gradient. Where aquifers pinch out between two lower hydraulic conductivity clay or till layers, the hydraulic head in such aquifers could be very high, in cases much higher than the ground surface. 

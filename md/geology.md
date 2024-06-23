@@ -3,15 +3,19 @@ title: Geology
 output: html_document
 ---
 
-# Geology
 
 The ORMGP has built upon an original geological interpretation of the Oak Ridges Moraine sediments undertaken during the 1990s by the Geological Survey of Canada (GSC). Between 2001 and 2010, five key phases of renewed geological interpretation have led to the development of interpreted digital geological layers across different parts of the ORMGP area. The focus has been on the unconsolidated glacial sediments that, in places, can extend around 200 m in thickness. In all cases, geological layers were developed using visual interpretation of well records on three dimensional dynamic cross-sections. The five interpretive phases are linked with specific ORMGP led projects all having contributed to the current geological interpretation and understanding of the Quaternary sediments in the program study area:
 
 * 2001 to 2006 – Regional Model – provided a five layer (strata) geologic model in the area extending from below the Niagara Escarpment in the west to the Trent River Watershed in the east. The geological interpretation was a refinement of the GSC’s original geological interpretation.
-* 2003 to 2006 – Core Model – provided an eight layer geological model. The “Lower Sediments” found in the original GSC interpretation were divided into three layers: (Thorncliffe Formation (aquifer), Sunnybrook drift/diamict (aquitard) and Scarborough Formation (aquifer). This conceptual model stretched between Lake Ontario in the south and Lake Simcoe in the north, and in an east-west direction, extended from the top of the Humber Watershed in the west to the Duffins Creek watershed in the east.
-* 2005 – 2006 – Core Model Extension – the layers developed for the 2003 to 2006 Core Model were extended: i) westward above the escarpment to the west boundary of the Credit River Watershed; and ii) eastward to the east side of the Ganaraska Conservation Authority boundary; and iii) northwards to encompass all of Durham and Peel Regions. In addition, the bedrock was subdivided into several Paleozoic Formations.
+* 2003 to 2006 – Core Model – provided an eight layer geological model. The “Lower Sediments” found in the original GSC interpretation were divided into three layers: Thorncliffe Formation (aquifer), Sunnybrook drift/diamict (aquitard) and Scarborough Formation (aquifer). This conceptual model stretched between Lake Ontario in the south and Lake Simcoe in the north, and in an east-west direction, extended from the top of the Humber Watershed in the west to the Duffins Creek watershed in the east.
+* 2005 to 2006 – Core Model Extension – the layers developed for the 2003 to 2006 Core Model were extended: 
+    1. westward above the escarpment to the west boundary of the Credit River Watershed; 
+    1. eastward to the east side of the Ganaraska Conservation Authority boundary; and 
+    1. northwards to encompass all of Durham and Peel Regions. 
+    
+    In addition, the bedrock was subdivided into several Paleozoic Formations.
 * 2006 to 2008 – Durham Model – provided a ten-layer model for the Regional Municipality of Durham. The Newmarket Till was divided into the Upper Newmarket Till (aquitard), the Inter-Newmarket Sediments (aquifer), and the Lower Newmarket Till (aquitard).
-* 2008 – 2010 – East Model – provided a 10 layer geological model (similar to the above) that extended from the York-Durham boundary through to the eastern and northern borders of the Trent Coalition Source Water Protection area. 
+* 2008 to 2010 – East Model – provided a 10 layer geological model (similar to the above) that extended from the York-Durham boundary through to the eastern and northern borders of the Trent Coalition Source Water Protection area. 
 
 For all of the above phases of geological interpretation, key aspects of the work included:
 

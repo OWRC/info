@@ -18,7 +18,7 @@ output: html_document
     * [Hydrogeologic Analysis](md/hydrogeologicanalysis.md)
     * [Hydraulic Properties](md/hydraulicproperties.md)
     * [Groundwater Flow](md/gwflow.md)
-    * [Water Budget](md/waterbudget.md)
+    * [Water Balance](md/waterbudget.md)
 * [Streamflow](md/streamflow.html)
     * [Hydrograph separation](hydrographseparation/)
     * [hydrograph disaggregation](hydrographdisaggregation/)
@@ -29,5 +29,7 @@ output: html_document
     * [Geothermal modelling](geothermal/)
     * [Multiphase flow through porous media](pmflow/)
     * [Shallow water overland flow](lia/)
+* Machine Learning
+    * [Hydrologic Modelling using Artificial Neural Networks](ann/)
 * Statistical Modelling
-    * [Generalized Additive Model](gam/)
+    * [Generalized Additive Mixed Modelling](gam/)
