@@ -30,6 +30,11 @@ $$
 
 Notice now the outputs $\hat{Q}$ are now fed into the input of the proceeding training round. This makes half of the ANN's inputs recurrent, making the network itself, partially recurrent. (Note: this formulation differs from typical Recurrent Neural Networks--RNN--where recurrency is applied at the node-level.) 
 
+<br>
+
+![](sampleNN.png)
+
+*Sample pRNN structure.*
 
 <br>
 

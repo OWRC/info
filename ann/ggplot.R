@@ -37,7 +37,7 @@ generate_data <- function(no_nodes_per_layer = c(2, 3, 2, 3, 2)) {
 }
 
 
-design <- c(7, 3, 3, 1)
+design <- c(7, 4, 4, 1)
 ninputs <- length(design)
 
 df <- generate_data(design)
@@ -82,11 +82,12 @@ dots <- list(
 
 p <- df %>%
   ggplot(aes(layer,nodes)) +
+  theme_bw() +
   annotate('text', df[df$layer==1,'layer']-.2, rev(df[df$layer==1,'nodes']), 
-           label=c('q[t-1]', 'q[t-2]', 'q[t-n-1]', 'p[t]', 'p[t-1]', 'p[t-n]', 'f(t)'),
+           label=c('Q[t-1]', 'Q[t-2]', 'Q[t-n-1]', 'P[t]', 'P[t-1]', 'P[t-n]', 'f(t)'),
            parse=TRUE) +
   annotate('text', df[df$layer==max(df$layer),'layer']+.2, rev(df[df$layer==max(df$layer),'nodes']),
-           label=c('q[t]'),
+           label=c('Q[t]'),
            parse=TRUE) +
   geom_point(data=as.data.frame(do.call(cbind, dots)),aes(x,y))
            
