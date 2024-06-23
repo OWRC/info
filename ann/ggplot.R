@@ -82,7 +82,7 @@ dots <- list(
 
 p <- df %>%
   ggplot(aes(layer,nodes)) +
-  theme_bw() +
+  theme_void() +
   annotate('text', df[df$layer==1,'layer']-.2, rev(df[df$layer==1,'nodes']), 
            label=c('Q[t-1]', 'Q[t-2]', 'Q[t-n-1]', 'P[t]', 'P[t-1]', 'P[t-n]', 'f(t)'),
            parse=TRUE) +
@@ -115,9 +115,9 @@ for (i in 1:(ninputs - 1)) {
 }
 
 
-p <- p + geom_point(color='black', fill='pink', shape=21, size=10, stroke=2)
 
-print(p)
+
+print(p + geom_point(color='black', fill='pink', shape=21, size=10))
 
 # ggsave(paste0("plot-",k,".jpg"),
 #        width = 1920,
