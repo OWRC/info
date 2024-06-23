@@ -11,8 +11,13 @@ Since the mid 1990s, the number of PQ cored boreholes has now risen to around 15
 
 The ORMGP has been involved in a number of these cored boreholes, either by contracting and drilling the boreholes directly, or through numerous partnership arrangements where staff have been on site to assist in collecting, logging and/or documenting depositional conditions related to the extracted sediment. All of the details pertaining to these boreholes are collected and stored in the program’s database. Borehole logs for several of the PQ Cored Boreholes are available for download below.
 
+<br>
+
 ![](fig/geo%20drilling.webp)
-Locations of PQ cored boreholes in Southern Ontario
+
+*Locations of PQ cored boreholes in Southern Ontario*
+
+<br>
 
 ## PQ CORED BHS
 * [Earl Bales](https://www.oakridgeswater.ca/_files/ugd/4a0a6e_1f0a6a3a38fa4743a3b587370d78b21f.pdf)
