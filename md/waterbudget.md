@@ -14,3 +14,4 @@ $$
     P = E + R + G 
 $$
 
+Although the above equation appears simple, 
