@@ -16,7 +16,9 @@ $$
 
 Although the above equation appears simple, the terms $E$ and $G$ are practically immeasurable and neither can be determined with any degree of certainty.  To solve for the unknowns, hydrologists must equip themselves with a wide knowledge base of environmental processes from atmospheric sciences (climatology and meteorology), to the biophysical processes of vegetation (photosynthesis), to the structure and mechanics of soils (pedology), to geology and its effect on groundwater (hydrogeology).  In addition, anthropogenic influences must also be taken into account. For example, how do agricultural practices affect the soil structure and vegetation distribution?   Given that urban infrastructure generally increases runoff at the expense of recharge and evapotranspiration, how does this change the water balance?
 
-To put
+To put this discussion into a local perspective, for southern Ontario the right-hand-side terms of the above equation--$E$, $R$, and $G$--are disproportionate: evapotranspiration consumes roughly two-thirds of all precipitation that falls during a year, while the remainder is proportioned between runoff and recharge depending on the regional geology and landscape character.
+
+At ORMGP, our primary interest is in quantifying and understanding the distribution of groundwater recharge $G$. Groundwater recharge maintains the dynamic
 
 
 [see also glossary](/interpolants/glossary.html)
