@@ -18,7 +18,7 @@ Although the above equation appears simple, the terms $E$ and $G$ are practicall
 
 To put this discussion into a local perspective, for southern Ontario the right-hand-side terms of the above equation--$E$, $R$, and $G$--are disproportionate: evapotranspiration consumes roughly two-thirds of all precipitation that falls during a year, while the remainder is proportioned between runoff and recharge depending on the regional geology and landscape character.
 
-At ORMGP, our primary interest is in quantifying and understanding the distribution of groundwater recharge $G$. Groundwater recharge maintains the dynamic
+At ORMGP, our primary interest is in quantifying and understanding the distribution of groundwater recharge $G$. Groundwater recharge maintains the dynamic groundwater flow system that is relied upon for domestic water supply by several hundred thousand residents, both those in the rural areas, as well as those in groundwater-based urban communities (e.g., Uxbridge, Newmarket, Caledon East, etc.).  Groundwater recharge also re-emerges from the ground in the area's many streams, creeks and wetlands thereby maintaining healthy ecosystems and flow in these important environmental features.  In our goal to improve the understanding of groundwater recharge and the overall groundwater flow system, the program is dedicated to the collection and management of data that provide insight into the proportions of the simple, yet elusive, water balance equation.
 
 
 [see also glossary](/interpolants/glossary.html)
