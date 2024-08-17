@@ -1,22 +1,13 @@
 ---
 title: Lumped Hydrologic Modelling
-author: M.Marchildon
+author: M. Marchildon
 output: html_document
 ---
 
 
-# Lumped
+A number of rainfall-runoff models that can be applied for long-term hydrological modelling. They are "lumped" meaning that there is no consideration for processes occurring within a watershed, only it's only application is taking a climate dataset to simulate a streamflow hydrograph.
 
-blah
-
-
-# Models
-
-## HBV
-
-![](fig/hbv.png)
-
-
+The models selected specifically because they have the ability to account for groundwater recharge rates and they include:
 
 * The Atkinson simple storage model (Atkinson et.al., 2002, 2003; Wittenberg and Sivapalan, 1999)
 * The Dawdy and O'Donnell (1965) model
@@ -28,8 +19,74 @@ blah
 * The SIXPAR/TWOPAR model (Gupta and Sorooshian, 1983; Duan et.al., 1992)
 * The simple parallel linear reservoir model (Buytaert and Beven, 2011)
 
+Below is a brief description of the model design.
 
-## References
+# Lumped Models
+
+
+## Atkinson simple storage model
+
+![](fig/Atkinson.png)
+
+
+## Dawdy and O'Donnell
+
+The Dawdy and O'Donnell model is the classic bucket type model.
+
+![](fig/DawdyODonnellModel.png)
+
+
+## GR4J
+
+GR4J is a simple (i.e., parsimonious) 4-parameter model.
+
+![](fig/GR4J.png)
+
+
+## HBV
+
+The model is commonly applied in a semi-distributed manner, however it can be applied in a lumped fashion.
+
+![](fig/HBV.png)
+
+
+## Manabe
+
+The Manabe model is simple storage model with an added linear groundwater reservoir. This is most commonly known as the "bucket" model. Manabe used this to represent land surface processes of a global circulation model.
+
+For instance, the Dawdy and O'Donnell model (above) uses 3 Manabe-type bucket models to represent catchment hydrology.
+
+To represent groundwater, a simple linear-decay groundwater model is added to simulate baseflow discharge.
+
+This is the simplest of all models.
+
+
+## The Multilayer Capacitance Model
+
+A three layer model built to model Lysimeter water balances. Here a simple linear baseflow model is added to handle drainage from the bottom layer.
+
+
+## Quinn
+
+The Quinn model is the original land surface model used with TOPMODEL. When the Quinn model is used in isolation, a simple linear baseflow model is added to handle drainage.
+
+
+## SIXPAR
+
+The SIXPAR model is a 6-parameter model that utilizes 2 manabe buckets. This is a simpler construction of the Dawdy and O'Donnell above. SIXPAR can be further simplified to a single manabe bucket named TWOPAR. This model does not make explicit use of potential evaporation, the input is net precipitation $(P-E_p)$.
+
+![](fig/sixpar.png)
+
+
+## SPLR
+
+The simple parallel linear reservoir (SPLR) model with 3 storage reservoirs needs only 3 parameters. Like SIXPAR, this model does not make explicit use of potential evaporation, the input is net precipitation.
+
+![](fig/SPLR.png)
+
+<br>
+
+# References
 
 Atkinson S.E., R.A. Woods, M. Sivapalan, 2002. Climate and landscape controls on water balance model complexity over changing timescales. Water Resource Research 38(12): 1314.
 
@@ -39,7 +96,7 @@ Bergström, S., 1976. Development and application of a conceptual runoff model f
 
 Bergström, S., 1992. The HBV model - its structure and applications. SMHI RH No 4. Norrköping. 35 pp.
 
-Buytaert, W., and K. Beven, 2011. Models as multiple working hypotheses: hydrological simulation of tropical alpine . Hydrological Processes 25. pp. 1784–1799.
+Buytaert, W., and K. Beven, 2011. Models as multiple working hypotheses: hydrological simulation of tropical alpine. Hydrological Processes 25. pp. 1784–1799.
 
 Dawdy, D.R., and T. O'Donnell, 1965. Mathematical Models of Catchment Behavior. Journal of Hydraulics Division, ASCE, Vol. 91, No. HY4: 123-137.
 
