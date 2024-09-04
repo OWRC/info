@@ -18,6 +18,7 @@ output: html_document
     * [Hydrogeologic Analysis](md/hydrogeologicanalysis.md)
     * [Hydraulic Properties](md/hydraulicproperties.md)
     * [Groundwater Flow](md/gwflow.md)
+    * [Water table](/watertable/)
     * [Water Balance](md/waterbudget.md)
 * [Streamflow](md/streamflow.html)
     * [Hydrograph separation](hydrographseparation/)
@@ -33,3 +34,4 @@ output: html_document
     * [Hydrologic Modelling using Artificial Neural Networks](ann/)
 * Statistical Modelling
     * [Generalized Additive Mixed Modelling](gam/)
+* [Metadata](/metadata/content/toc.html)
