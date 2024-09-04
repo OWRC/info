@@ -5,7 +5,6 @@ output: html_document
 ---
 
 
-# Hydrograph Separation
 
 > "Division of a hydrograph into direct and groundwater runoff as a basis for subsequent analysis is known as *hydrograph separation* or *hydrograph analysis*. Since there is no real basis for distinguishing between direct and groundwater flow in a stream at any instant, and since definitions of these two components are relatively arbitrary, the method of separation is usually equally arbitrary." - Linsley et.al., 1975
 

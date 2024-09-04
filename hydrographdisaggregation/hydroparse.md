@@ -1,14 +1,11 @@
 ---
 title: Automated hydrograph disaggregation
-# author: Oak Ridges Moraine Groundwater Program
-date: February, 2019
+author: Oak Ridges Moraine Groundwater Program
 output: html_document
 ---
 
 
 
-
-# Hydrograph disaggregation
 
 The hydrograph disaggregation algorithm is a means of categorizing the hydrograph into three primary constituent parts, namely: 
 

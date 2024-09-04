@@ -31,10 +31,11 @@ Below is a brief description of the model design.
 
 ## Dawdy and O'Donnell
 
-The Dawdy and O'Donnell model is the classic bucket type model.
+The Dawdy and O'Donnell (1965) model is the classic bucket type model.
 
-![](fig/DawdyODonnellModel.png)
+![](fig/DawdyODonnell.png)
 
+*Schematic diagram of the overall model of the hydrological cycle (from Dooge and O'Kane, 2003).*
 
 ## GR4J
 
@@ -70,6 +71,16 @@ A three layer model built to model Lysimeter water balances. Here a simple linea
 
 The Quinn model is the original land surface model used with TOPMODEL. When the Quinn model is used in isolation, a simple linear baseflow model is added to handle drainage.
 
+Where the Quinn model differs is that it ca account for a shallow water table.
+
+![](fig/Quinn.png)
+
+*A simple version of the vertical storage element in the Quinn model. $S_i$ is the local gravity drainage storage deficit, $q_v$ is local recharge to the saturated zone and $\psi_o$ is the depth of the "capillary fringe" (Beven etal., 1995).*
+
+$$
+    s_i = (\theta_s-\theta_\text{fc})(z_i-\psi_o)=\Delta\theta_1(z_i-\psi_o)
+$$
+
 
 ## SIXPAR
 
@@ -96,9 +107,13 @@ Bergström, S., 1976. Development and application of a conceptual runoff model f
 
 Bergström, S., 1992. The HBV model - its structure and applications. SMHI RH No 4. Norrköping. 35 pp.
 
+Beven, K.J., R. Lamb, P.F. Quinn, R. Romanowicz, and J. Freer, 1995. TOPMODEL. In Singh V.P. editor, Computer Models of Watershed Hydrology. Water Resources Publications, Highland Ranch, CO: pp. 627—668.
+
 Buytaert, W., and K. Beven, 2011. Models as multiple working hypotheses: hydrological simulation of tropical alpine. Hydrological Processes 25. pp. 1784–1799.
 
 Dawdy, D.R., and T. O'Donnell, 1965. Mathematical Models of Catchment Behavior. Journal of Hydraulics Division, ASCE, Vol. 91, No. HY4: 123-137.
+
+Dooge, J.C.I., and O'Kane, P., 2003. Deterministic Methods in Systems Hydrology: IHE Delft Lecture Note Series (1st ed.). CRC Press.
 
 Duan, Q., S. Sorooshian, V. Gupta, 1992. Effective and Efficient Global Optimization for Conceptual Rainfall-Runoff Models. Water Resources Research 28(4): 1015-1031.
 
