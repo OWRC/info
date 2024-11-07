@@ -15,11 +15,11 @@ The study generated policy guidance under four broad areas that are addressed in
 - Landform Conservation
 - Infrastructure
 
-The study was ground-breaking for the time providing: direction to watershed planners such that their watershed plans would facilitate the transfer of the science-based recommendations into official plan policies; and direction to municipal planners to demand watershed outcomes that are readily transferable into Official Plans.
+The study was ground-breaking for the time, providing: i) direction to watershed planners such that their watershed plans would facilitate the transfer of the science-based recommendations into official plan policies; and ii) direction to municipal planners to demand watershed outcomes that are readily transferable into Official Plans.
 
-Upon its release, the longer term objective was to have the policies be refined and updated as planners from the partner agencies tested their effectiveness in their day to day work. However, in 2005 – 2006, Source Water Protection initiatives were launched across the Province, superseding the short-term need for further work on this initiative. Source Water Protection work has led to the creation of approved Source Water Protection Plans across the Province which outline groundwater protection policies to address the protection of Ontario’s drinking water sources. The Source Water Protection Plans are available for review here:
+Upon its release, the longer-term objective was to have the policies be refined and updated as planners from the partner agencies tested their effectiveness in their day to day work. However, in 2005 – 2006, Source Water Protection initiatives were launched across the Province, superseding the short-term need for further work on this initiative. Source Water Protection work has led to the creation of approved Source Water Protection Plans across the Province which outline groundwater protection policies to address the protection of Ontario’s drinking water sources. The Source Water Protection Plans are available for review here:
 
-* [CTC Region](https://ctcswp.ca/protecting-our-water/the-ctc-source-protection-plan/)
-* [Southern Georgian Bay and Lake Simcoe Region](https://ourwatershed.ca/resources/reports-and-plans/source-protection-plan/)
+* [CTC Region](https://www.ctcswp.ca/)
+* [Southern Georgian Bay and Lake Simcoe Region](https://ourwatershed.ca/)
 * [Trent Coalition](https://trentsourceprotection.on.ca/)
 
