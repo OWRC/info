@@ -19,7 +19,7 @@ In addition to these data, over 13,000 spotflow measurements collected along muc
 * Understanding the spatial patterns of streamflow and their relationship to catchment drainage pathways and ecosystem connectivity; and
 * Providing a good snapshot of regional hydrology that helps overcome the sparse distribution of existing long-term streamflow gauging stations.                                      
 
-A summary map of stream profiles within the Oak Ridges Moraine boundary can be viewed <a href="https://maps.oakridgeswater.ca/Html5Viewer/index.html?viewer=ORMGPP&run=StreamflowProfiles#" target="_blank">here</a>.
+On the ORMGP partner login site there is a baseflow analysis tool that links adjacent spot flow measurements and determines whether specific stream reaches are either gaining or losing water and the magnitude of the change. A summary map of stream profiles within the Oak Ridges Moraine boundary can be viewed <a href="https://maps.oakridgeswater.ca/Html5Viewer/index.html?viewer=ORMGPP&run=StreamflowProfiles#" target="_blank">here</a>.
 
 <!-- [here](https://maps.oakridgeswater.ca/Html5Viewer/index.html?viewer=ORMGPP&run=StreamflowProfiles#). -->
 
