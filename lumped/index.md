@@ -95,6 +95,13 @@ The simple parallel linear reservoir (SPLR) model with 3 storage reservoirs need
 
 ![](fig/SPLR.png)
 
+
+## Tank
+
+The tank model is a conceptual model taking a set of Manabe reservoirs ordered in a particular way to represent separate stores and their affect on runoff generation (Sugawara, 1995).
+
+![](fig/Structure-of-the-tank-model.png)
+
 <br>
 
 # References
@@ -128,5 +135,7 @@ Quinn P.F., K.J. Beven, 1993. Spatial and temporal predictions of soil moisture 
 Seibert, J. and J.J. McDonnell, 2010. Land-cover impacts on streamflow: a change-detection modelling approach that incorporates parameter uncertainty. Hydrological Sciences Journal 55(3): 316-332.
 
 Struthers, I., C. Hinz, M. Sivapalan, G. Deutschmann, F. Beese, R. Meissner, 2003. Modelling the water balance of a free-draining lysimeter using the downward approach. Hydrological Processes (17): 2151-2169.
+
+Sugawara, M. (1995). Tank model. In: V.P. Singh (Ed.), Computer models of watershed hydrology. Water Resources Publications, Highlands Ranch, Colorado.
 
 Wittenberg H., M. Sivapalan, 1999. Watershed groundwater balance equation using streamflow recession analysis and baseflow separation. Journal of Hydrology 219: 20-33.
