@@ -20,6 +20,7 @@ output: html_document
     * [Groundwater Flow](md/gwflow.md)
     * [Water table](/watertable/)
     * [Water Balance](md/waterbudget.md)
+    * [Specific Storage, specific Yield and Storativity](md/specificstorage.md)
 * [Streamflow](md/streamflow.html)
     * [Hydrograph separation](hydrographseparation/)
     * [hydrograph disaggregation](hydrographdisaggregation/)
