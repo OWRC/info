@@ -102,7 +102,7 @@ $$
 $$
 	\lambda E_p = 
 	\begin{cases}
-		\frac{R_a}{\rho_w}\frac{T+5}{100} \qquad &T+5>0\text{°C} \\
+		\dfrac{R_a}{\rho_w}\dfrac{T+5}{100} \qquad &T+5>0\text{°C} \\
 		0 &\text{otherwise}
 	\end{cases}
 $$
