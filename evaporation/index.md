@@ -35,6 +35,8 @@ output: html_document
 
 [*see also physical relationships below.*](#physical-properties)
 
+> Note: Potential evapotranspiration is often expressed in its energy flux form: $\left(\lambda E_p\right)$, which has the units W/m².
+
 ## Combination Equations
 
 ### Penman (1948) – based on a Dalton approach
@@ -64,6 +66,8 @@ $$
 	\lambda E_p = \alpha\frac{\Delta}{\Delta + \gamma}(R-G)
 $$
 
+
+
 ## Empirical Equations 
 
 - generally for the estimation of daily potential $(E_p)$
@@ -85,7 +89,6 @@ $$
 
 where $C_\text{RH}$ is correction factor when `Relative Humidity` \<50%.
 
-
 ### Jensen Haise (1963)
 
 $$
@@ -94,12 +97,26 @@ $$
 
 > Jensen Haise (1963): $T_c\approx3.1$, $\alpha\approx 0.025$
 
+### Oudin (2005)
+
+$$
+	\lambda E_p = 
+	\begin{cases}
+		\frac{R_a}{\rho_w}\frac{T+5}{100} \qquad &T+5>0\text{°C} \\
+		0 &\text{otherwise}
+	\end{cases}
+$$
+
+where $T$ is the daily average temperature.
 
 ### Hargreaves (1975)
 
 $$
-	\lambda E_p = \alpha T_\text{(°F)}R_g \\
-	\lambda E_p = 1.8\alpha(T_\text{(°C)} + 17.78)R_g
+  \begin{aligned}
+	\lambda E_p &= \alpha T_\text{(°F)}R_g\\
+	&\text{or} \\
+	\lambda E_p &= 1.8\alpha(T_\text{(°C)} + 17.78)R_g
+  \end{aligned}
 $$
 
 > often, $\alpha\approx 0.0075$
@@ -320,6 +337,8 @@ Jensen, M.E., H.R. Haise, 1963. Estimating Evapotranspiration from Solar Radiati
 Makkink, G.F. (1957) Testing the Penman formula by means of lysimeters. Int. J. Water Engng 11, 277–288.
 
 Monteith, J.L. (1965) Evaporation and environment. Symposia of the Society for Experimental Biology 19: 205–224.
+
+Oudin, L., Hervieu, F., Michel, C., Perrin, C., Andréassian, V., Anctil, F., Loumagne, C., 2005. Which potential evapotranspiration input for a lumped rainfall-runoff model?: Part 2--Towards a simple and efficient potential evapotranspiration model for rainfall-runoff modelling. Journal of Hydrology 303, 290–306.
 
 Penman, H.L. (1948) Natural evaporation from open water, bare soil and grass. Proceedings of the Royal Society of London. Series A, Mathematical and Physical Sciences 193(1032): 120-145.
 
