@@ -21,7 +21,7 @@ $$
   \nabla\mathbf{q} + S_s\frac{\partial h}{\partial t} + Q=0
 $$
 
-where from Darcy's law:
+where from Darcy's Equation:
 
 $$
   \mathbf{q}=-\mathbf{K}\nabla h
